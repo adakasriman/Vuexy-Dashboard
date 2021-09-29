@@ -13,6 +13,7 @@ body {
 }
 
 body aside {
+  height: 100%;
   background: #ffffff;
   width: 260px;
   padding: 25px 15px 0 15px;
@@ -1047,7 +1048,7 @@ body .mainContainer .miniContainer3 .left-part .table .row .iconAndCompanyDetail
 }
 
 body .mainContainer .miniContainer3 .left-part .table .row .iconAndCategory {
-  margin-left: 8px;
+  margin-left: 0px;
 }
 
 body .mainContainer .miniContainer3 .left-part .table .row .iconAndCategory .technology-icon {
@@ -1065,7 +1066,7 @@ body .mainContainer .miniContainer3 .left-part .table .row .iconAndCategory .cat
 }
 
 body .mainContainer .miniContainer3 .left-part .table .row .viewsAndDuringTime {
-  margin-left: -25px;
+  margin-left: -30px;
 }
 
 body .mainContainer .miniContainer3 .left-part .table .row .viewsAndDuringTime .views {
@@ -1100,7 +1101,7 @@ body .mainContainer .miniContainer3 .left-part .table .row .revenue {
 }
 
 body .mainContainer .miniContainer3 .left-part .table .row .salesPercentageAndGraph {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 body .mainContainer .miniContainer3 .left-part .table .row .salesPercentageAndGraph .percentage {
@@ -1111,6 +1112,7 @@ body .mainContainer .miniContainer3 .left-part .table .row .salesPercentageAndGr
   line-height: 21px;
   letter-spacing: 0px;
   text-align: left;
+  margin-right: 10px;
 }
 
 body .mainContainer .miniContainer3 .left-part .table .system {
@@ -1276,10 +1278,14 @@ body .mainContainer .miniContainer4 .flex-spaceBetween {
 }
 
 body .mainContainer .miniContainer4 .browser {
-  width: 320px;
+  width: 326px;
   padding: 15px 17px 10px 19px;
   background: #ffffff;
   border-radius: 6px;
+}
+
+body .mainContainer .miniContainer4 .browser .margin-setup {
+  margin-bottom: 10px;
 }
 
 body .mainContainer .miniContainer4 .browser .text {
@@ -1393,13 +1399,14 @@ body .mainContainer .miniContainer4 .overView .completedAndProgress-vales .progr
 
 body .mainContainer .miniContainer4 .transactions {
   margin-left: 28px;
-  width: 326px;
+  width: 320px;
   background: #ffffff;
   padding: 18px 16px 0px 20px;
   border-radius: 5px;
 }
 
 body .mainContainer .miniContainer4 .transactions .header {
+  width: 100%;
   padding: 0;
 }
 
