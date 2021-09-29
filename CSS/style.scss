@@ -1,0 +1,1238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    background: #e5e5e5;
+    margin-right: 28px;
+    aside {
+        background: #ffffff;
+        width: 260px;
+        padding: 25px 15px 0 15px;
+        margin-left: 50px;
+        .logo_titleAndSettingsIcon {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .title {
+                font-family: Montserrat;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 29px;
+                letter-spacing: -0.4285714328289032px;
+                text-align: left;
+                color: #7367f0;
+                margin-left: 11.1px;
+            }
+        }
+        .in-flex {
+            display: flex;
+            align-items: center;
+            .homeIcon {
+                margin-right: 10px;
+            }
+            .dashboard {
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #5e5873;
+            }
+            .analytics {
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #ffffff;
+            }
+            .eCommerece {
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #5e5873;
+            }
+            .circle {
+                margin-right: 15px;
+            }
+        }
+        .pageThings {
+            margin: 28px 0 37px 0;
+
+            .dashboardAndPages {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .dashboardPages {
+                    display: flex;
+                    align-items: center;
+                }
+                .pageNumber {
+                    width: 24px;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 18px;
+                    letter-spacing: 0px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background: #7367f0;
+                    color: #ffffff;
+                    margin-right: 4.21px;
+                }
+                .downArrow {
+                    margin-bottom: 5px;
+                }
+            }
+            .dashboardAndPages {
+                padding: 10px 11.9px 8px 15px;
+                background: #f8f8f8;
+                margin-bottom: 7px;
+            }
+            .circleAnalytics {
+                padding: 10px 117px 8px 15px;
+                background: #7367f0;
+                margin-bottom: 7px;
+            }
+            .cicrleAndEcommerence {
+                padding: 10px 117px 8px 15px;
+            }
+        }
+        .apps {
+            ul {
+                list-style-type: none;
+            }
+            li {
+                margin-bottom: 18px;
+            }
+            a {
+                text-decoration: none;
+            }
+            .listHeader {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #b9b9c3;
+            }
+            .text-style {
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #5e5873;
+                margin-left: 10px;
+            }
+            .flex-spaceBetween {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .arrowButton {
+                margin-right: 20px;
+            }
+        }
+        .userInteface-elments {
+            ul {
+                list-style-type: none;
+            }
+            li {
+                margin-bottom: 18px;
+            }
+            a {
+                text-decoration: none;
+            }
+            .listHeader {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #b9b9c3;
+            }
+            .text-style {
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #5e5873;
+                margin-left: 10px;
+            }
+            .flex-spaceBetween {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .arrowButton {
+                margin-right: 20px;
+            }
+            .addingNew {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18px;
+                letter-spacing: 0px;
+                text-align: center;
+                margin-right: 46px;
+                padding: 1px 9px;
+                color: #ffffff;
+                background: #ff9f43;
+                border-radius: 50px;
+            }
+        }
+        .formsAndTables {
+            ul {
+                list-style-type: none;
+            }
+            li {
+                margin-bottom: 18px;
+            }
+            a {
+                text-decoration: none;
+            }
+            .listHeader {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #b9b9c3;
+            }
+            .text-style {
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #5e5873;
+                margin-left: 10px;
+            }
+            .flex-spaceBetween {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .arrowButton {
+                margin-right: 20px;
+            }
+        }
+    }
+    .mainContainer {
+        width: 100%;
+        margin: 21px 28px 0 28px;
+        display: flex;
+        flex-direction: column;
+        .header {
+            margin-right: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 11px 11px 20px;
+            margin-bottom: 22px;
+            background: #ffffff;
+            ul {
+                list-style-type: none;
+                li {
+                    margin-right: 14px;
+                }
+            }
+            a {
+                text-decoration: none;
+            }
+            .in-flex {
+                display: flex;
+                align-items: center;
+            }
+            .countryLogo {
+                margin-right: 8px;
+            }
+            .lang {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0px;
+                text-align: right;
+                color: #6e6b7b;
+            }
+            .orders {
+                position: relative;
+                bottom: 6px;
+            }
+            .alarm {
+                position: relative;
+                bottom: 4px;
+            }
+            .accountHolderName {
+                margin-right: 13.77px;
+                .name {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 21px;
+                    letter-spacing: 0px;
+                    text-align: right;
+                    color: #6e6b7b;
+                }
+                .admin {
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0px;
+                    text-align: right;
+                    color: #b9b9c3;
+                }
+            }
+        }
+        .minContainers1 {
+            display: flex;
+            align-items: center;
+            margin-right: 28px;
+            .left-part {
+                .wishesAndBadge {
+                    display: flex;
+                    background: #ffffff;
+                    border-radius: 6px;
+                    .wishesAndMoney {
+                        padding: 13px 20px 22px 21px;
+                        .whishes {
+                            width: 189px;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 24px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #5e5873;
+                            margin-bottom: 7px;
+                        }
+                        .medal-type {
+                            width: 156px;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 18px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #6e6b7b;
+                            margin-bottom: 26px;
+                        }
+                        .dollers {
+                            font-size: 21px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 26px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #7367f0;
+                            margin-bottom: 11px;
+                        }
+                        .sales {
+                            width: 85px;
+                            padding: 8px 16px 9px 20px;
+                            background: #7367f0;
+                            border-radius: 6px;
+                            color: #ffffff;
+                        }
+                    }
+                    .badge {
+                        padding: 0px 31px 0px 20px;
+                    }
+                }
+            }
+            .right-part {
+                height: 160px;
+                width: 100%;
+                background: #ffffff;
+                margin-left: 28px;
+                border-radius: 6px;
+                padding: 23px 29px 0px 30px;
+                .flex-spaceBetween {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .in-flex {
+                    display: flex;
+                    align-items: center;
+                }
+                .satatisticsAndUpdatedTime {
+                    margin-bottom: 60px;
+                    .statisticsText {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 22px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #5e5873;
+                    }
+                    .updatedTime {
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 18px;
+                        letter-spacing: 0px;
+                        text-align: right;
+                        color: #6e6b7b;
+                    }
+                }
+                .statistics {
+                    .gap-setup {
+                        margin-right: 22px;
+                    }
+                    .graph {
+                        padding: 7px;
+                        background: #d8d6ec;
+                        border-radius: 50%;
+                    }
+                    .userIcon {
+                        padding: 7px;
+                        background: #defafd;
+                        border-radius: 50%;
+                    }
+                    .cubeicon {
+                        padding: 7px;
+                        background: #fcd6d6;
+                        border-radius: 50%;
+                    }
+                    .doller {
+                        padding: 7px;
+                        background: #e1faec;
+                        border-radius: 50%;
+                    }
+                }
+                .numberAndText {
+                    margin-left: 15px;
+                    .number {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 22px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #5e5873;
+                    }
+                    .text {
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 18px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #6e6b7b;
+                    }
+                }
+            }
+        }
+        .miniContainer2 {
+            display: flex;
+            // align-items: center;
+            margin-top: 28px;
+            margin-right: 28px;
+            .left-part {
+                .top-part {
+                    display: flex;
+                    .orderAndGraph {
+                        border-radius: 6px;
+                        padding: 16px 18px 18px 19px;
+                        background: #ffffff;
+                        .text {
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 22px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #5e5873;
+                        }
+                        .number {
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 29px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #5e5b73;
+                        }
+                        .chart {
+                            margin-top: 40px;
+                        }
+                    }
+                    .profit {
+                        border-radius: 6px;
+                        padding: 16px 18px 18px 19px;
+                        margin-left: 27px;
+                        background: #ffffff;
+                        .text {
+                            margin-bottom: 8px;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 23px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #5e5873;
+                        }
+                        .number {
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 29px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #5e5873;
+                        }
+                        .chart {
+                            margin-top: 26px;
+                        }
+                    }
+                }
+                .bottom-part {
+                    border-radius: 6px;
+                    margin-top: 28px;
+                    width: 319px;
+                    padding: 17px 18px 14px 21px;
+                    background: #ffffff;
+                    .flex-spaceBetween {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    .earningAmountAndSalesPercentage {
+                        .earning {
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 22px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            margin-bottom: 14px;
+                        }
+                        .monthEarning {
+                            margin-bottom: 16px;
+                            .monthText {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 18px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #6e6b7b;
+                            }
+                            .monthAmount {
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 24px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #5e5b73;
+                            }
+                        }
+                        .lastMonthPrecentage {
+                            width: 171px;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 18px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #b9b9c3;
+                        }
+                    }
+                }
+            }
+            .right-part {
+                display: flex;
+                flex-direction: row;
+                border-radius: 6px;
+                margin-left: 29px;
+                width: 100%;
+                padding: 18px;
+                background: #ffffff;
+                .in-flex {
+                    display: flex;
+                    align-items: center;
+                }
+                .flex-spaceBetween {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+                .revenue-report {
+                    .headerofBox {
+                        .revenueText {
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 22px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #5e5873;
+                        }
+                        .identifyingSymbolAndEarningText {
+                            .text {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 21px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #6e6b7b;
+                                margin-left: 8px;
+                            }
+                        }
+                        .identifyingSymbolAndExpenseText {
+                            margin-left: 19px;
+                            .text {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 21px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #6e6b7b;
+                                margin-left: 8px;
+                            }
+                        }
+                    }
+                    .revenueChart {
+                        .values {
+                            ul {
+                                margin-top: 37px;
+                                margin-right: 45px;
+                                list-style-type: none;
+                                li {
+                                    margin-bottom: 22px;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 18px;
+                                    letter-spacing: 0px;
+                                    text-align: center;
+                                    color: #b9b9c3;
+                                }
+                            }
+                        }
+                        .comparingMonth {
+                            ul {
+                                margin-left: 70px;
+                                display: flex;
+                                li {
+                                    list-style-type: none;
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 18px;
+                                    letter-spacing: 0px;
+                                    text-align: center;
+                                    color: #b9b9c3;
+                                    margin-right: 22.5px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .virtical-line {
+                    margin-left: 15px;
+                    height: 100%;
+                    border: 1px solid #ebe9f1;
+                }
+                .budget {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 15px;
+                    padding: 20px;
+                    .yearAndBudget {
+                        .currentYearAnddownArrow {
+                            margin-left: 15px;
+                            width: 45px;
+                            margin-bottom: 40px;
+                            border: 1px solid #7367f0;
+                            padding: 3px 6px;
+                            border-radius: 6px;
+                            .currentYear {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 18px;
+                                letter-spacing: 0px;
+                                text-align: center;
+                                color: #7367f0;
+                                margin-right: 6px;
+                            }
+                        }
+                        .valueAndBudget {
+                            margin-bottom: 26px;
+                            .budget-textAndValue {
+                                .budgetText {
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    line-height: 21px;
+                                    letter-spacing: 0px;
+                                    text-align: center;
+                                }
+                                .budgetValue {
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: 21px;
+                                    letter-spacing: 0px;
+                                    text-align: center;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .increaseBudget-button {
+                        margin-top: 35px;
+                        padding: 10px 22px;
+                        background: #7367f0;
+                        border-radius: 6px;
+                        a {
+                            text-decoration: none;
+                            color: #ffffff;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 17px;
+                            letter-spacing: 0.4000000059604645px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .miniContainer3 {
+            display: flex;
+            align-items: center;
+            margin-top: 28px;
+            margin-right: 28px;
+            .in-flex {
+                display: flex;
+                align-items: center;
+            }
+            .left-part {
+                margin-right: 28px;
+                .table {
+                    border-radius: 6px;
+                    .header-row {
+                        width: 720px;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 10px 20px;
+                        background: #f3f2f7;
+                        .companyList {
+                            // margin-right: 28px;
+                            .companey-text {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 15px;
+                                letter-spacing: 1px;
+                                text-align: left;
+                                margin-right: 80px;
+                            }
+                        }
+                        .categoryList {
+                            // margin-right: 25px;
+                            .category-text {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 15px;
+                                letter-spacing: 1px;
+                                text-align: left;
+                                margin-right: 40px;
+                            }
+                        }
+                        .viewsList {
+                            // margin-right: 25px;
+                            .views-text {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 15px;
+                                letter-spacing: 1px;
+                                text-align: left;
+                                margin-right: 28px;
+                            }
+                        }
+                        .revenueList {
+                            // margin-right: 25px;
+                            .revenue-text {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 15px;
+                                letter-spacing: 1px;
+                                text-align: left;
+                                margin-right: 16px;
+                            }
+                        }
+                        .salesList {
+                            .text {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 15px;
+                                letter-spacing: 1px;
+                                text-align: left;
+                                margin-right: 14px;
+                            }
+                        }
+                    }
+                    .row {
+                        width: 720px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px 20px;
+                        background: #ffffff;
+                        border: 3px solid #f8f8f8;
+                        border-left: none;
+                        border-top: none;
+                        border-right: none;
+                        .iconAndCompanyDetails {
+                            .icon {
+                                padding: 7px 6px;
+                                background: #f8f8f8;
+                                border-radius: 6px;
+                                margin-right: 20px;
+                            }
+                            .compeny-nameAndMail {
+                                .name {
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: 21px;
+                                    letter-spacing: 0px;
+                                    text-align: left;
+                                    color: #6e6b7b;
+                                }
+                                .mail {
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 18px;
+                                    letter-spacing: 0px;
+                                    text-align: left;
+                                    color: #b9b9c3;
+                                }
+                            }
+                        }
+                        .iconAndCategory {
+                            margin-left: 8px;
+                            .technology-icon {
+                                margin-right: 10px;
+                            }
+                            .categoryName {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 21px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #6e6b7b;
+                            }
+                        }
+                        .viewsAndDuringTime {
+                            margin-left: -25px;
+                            .views {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 21px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #6e6b7b;
+                            }
+                            .duringTime {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 18px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #b9b9c3;
+                            }
+                        }
+                        .revenue {
+                            margin-right: 20px;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 21px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #6e6b7b;
+                        }
+                        .salesPercentageAndGraph {
+                            margin-right: 10px;
+                            .percentage {
+                                margin-right: 5px;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 21px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                            }
+                        }
+                    }
+                    .system {
+                        padding: 7px 6px 6px 6px;
+                        background: #c8c4f7;
+                        border-radius: 50%;
+                    }
+                    .cup {
+                        padding: 7px 6px 6px 6px;
+                        background: #dcf1e6;
+                        border-radius: 50%;
+                    }
+                    .watch {
+                        padding: 7px 6px 6px 6px;
+                        background: #eed6c0;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            .right-part {
+                border-radius: 5px;
+                background: #ffffff;
+                .meeting-setup {
+                    padding: 20px 10px 33px 24px;
+                    .meeting-nameAndDate {
+                        margin-bottom: 26px;
+                        .meetingTime {
+                            .day {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 17px;
+                                letter-spacing: 0px;
+                                text-align: center;
+                                color: #5e5873;
+                            }
+                            .date {
+                                font-size: 21px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 26px;
+                                letter-spacing: 0px;
+                                text-align: center;
+                                color: #5e5873;
+                            }
+                        }
+                        .vertical-line {
+                            border: 1px solid #d8d6de;
+                            margin-left: 17px;
+                            margin-right: 17px;
+                        }
+                        .meetingNameAndAboutMeeting {
+                            .meetingName {
+                                color: #5e5873;
+                            }
+                            .aboutMeeting {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 21px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #6e6b7b;
+                            }
+                        }
+                    }
+                    .calender {
+                        margin-bottom: 17px;
+                        .iconBackground {
+                            padding: 6px;
+                            border-radius: 5px;
+                            background: #b5aff5;
+                            margin-right: 14px;
+                        }
+                        .slotTimings {
+                            .style-property {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 23px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #5e5873;
+                            }
+                            .style1-setup {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 18px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #b9b9c3;
+                            }
+                        }
+                    }
+                    .location {
+                        margin-bottom: 40px;
+                        .iconBackground {
+                            padding: 6px;
+                            border-radius: 5px;
+                            background: #b5aff5;
+                            margin-right: 14px;
+                        }
+                        .location-nameAndLandMark {
+                            .style-property {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 23px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #5e5873;
+                            }
+                            .style1-setup {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 18px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #b9b9c3;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .miniContainer4 {
+            margin-top: 28px;
+            margin-bottom: 53px;
+            display: flex;
+            // justify-content: space-between;
+            .in-flex {
+                display: flex;
+                align-items: center;
+            }
+            .flex-spaceBetween {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .browser {
+                width: 320px;
+                padding: 15px 17px 10px 19px;
+                background: #ffffff;
+                border-radius: 6px;
+                .text {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 22px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #5e5873;
+                }
+                .monthAndYear {
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #b9b9c3;
+                    margin-top: 8px;
+                    margin-bottom: 21px;
+                }
+                .browsersAndPercentages {
+                    .text {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 23px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #5e5873;
+                        margin-left: 12px;
+                    }
+                    .percentage {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 23px;
+                        letter-spacing: 0px;
+                        text-align: right;
+                        margin-right: 15px;
+                        color: #6e6b7b;
+                    }
+                }
+            }
+            .overView {
+                width: 320px;
+                background: #ffffff;
+                margin-left: 28px;
+                padding: 20px 30px 0 20px;
+                border-radius: 5px;
+                .question {
+                    text-align: right;
+                }
+                .text {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: bold;
+                    line-height: 22px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #5e5873;
+                }
+                .percentage {
+                    text-align: center;
+                }
+                .completedAndProgress-vales {
+                    border: 2px solid #ebe9f1;
+                    border-bottom: none;
+                    border-left: none;
+                    border-right: none;
+                    .padding-setup {
+                        width: 100%;
+                        padding: 15px 30px;
+                    }
+                    .text {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 21px;
+                        letter-spacing: 0px;
+                        text-align: center;
+                        color: #b9b9c3;
+                    }
+                    .vales {
+                        font-size: 21px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 26px;
+                        letter-spacing: 0px;
+                        text-align: center;
+                        color: #5e5873;
+                    }
+                    .progress {
+                        border: 2px solid #ebe9f1;
+                        border-bottom: none;
+                        border-top: none;
+                        border-right: none;
+                    }
+                }
+            }
+            .transactions {
+                margin-left: 28px;
+                width: 326px;
+                background: #ffffff;
+                padding: 18px 16px 0px 20px;
+                border-radius: 5px;
+                .header {
+                    padding: 0;
+                    .transaction-text {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 22px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #5e5873;
+                    }
+                }
+                .iconAndTypeOf {
+                    margin-bottom: 18px;
+                    .typeIs {
+                        margin-left: 11px;
+                    }
+                }
+                .wallet-icon {
+                    background: #c6c3ee;
+                    padding: 11px;
+                    border-radius: 5px;
+                }
+                .correctTik {
+                    background: #caebd9;
+                    padding: 11px;
+                    border-radius: 5px;
+                }
+                .doller {
+                    background: #f7c2c2;
+                    padding: 11px;
+                    border-radius: 5px;
+                }
+                .card {
+                    background: #f7d6b7;
+                    padding: 11px;
+                    border-radius: 5px;
+                }
+                .graph {
+                    background: #afe9f0;
+                    padding: 11px;
+                    border-radius: 5px;
+                }
+                .type {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 23px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #5e5873;
+                }
+                .adding {
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #6e6b7b;
+                }
+                .money {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 21px;
+                    letter-spacing: 0px;
+                    text-align: right;
+                    color: #28c76f;
+                }
+                .netiveMoney {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 21px;
+                    letter-spacing: 0px;
+                    text-align: right;
+                    color: #ea5455;
+                }
+            }
+        }
+    }
+}
