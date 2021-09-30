@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="styleSheet" href="/CSS/style.css">
+    <link rel="styleSheet" href="/CSS/fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -18,45 +19,58 @@
             <div class="logo_titleAndSettingsIcon">
                 <div class="logoAndTitle in-flex">
                     <div class="logo">
-                        <img src="/IMG/Logo.svg" alt="">
+                        <a href="">
+                            <img src="/IMG/Logo.svg" alt="">
+                        </a>
                     </div>
-                    <div class="title">Vuexy</div>
+                    <div>
+                        <a class="title" href="">Vuexy </a>
+                    </div>
                 </div>
                 <div class="settingsIcon">
-                    <img src="/IMG/Mask.svg" alt="">
+                    <a href="">
+                        <img src="/IMG/Mask.svg" alt="">
+                    </a>
                 </div>
             </div>
             <div class="pageThings">
                 <div class="dashboardAndPages">
                     <div class="homeIconAndDashboard in-flex">
                         <div class="homeIcon">
-                            <img src="/IMG/HomeIcon.svg" alt="">
+                            <a href="">
+                                <img src="/IMG/HomeIcon.svg" alt="">
+                            </a>
                         </div>
-                        <div class="dashboard">
-                            Dashboards
+                        <div>
+                            <a class="dashboard" href=""> Dashboards </a>
                         </div>
                     </div>
                     <div class="dashboardPages">
                         <div class="pageNumber">2</div>
                         <div class="downArrow">
-                            <img src="/IMG/downArrow.svg" alt="">
+                            <a href="">
+                                <img src="/IMG/downArrow.svg" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="circleAnalytics in-flex">
                     <div class="circle">
-                        <img src="/IMG/Circle.svg" alt="">
+                        <a href="">
+                            <img src="/IMG/Circle.svg" alt="">
+                        </a>
                     </div>
-                    <div class="analytics">
-                        Analytics
+                    <div><a class="analytics" href="">
+                            Analytics</a>
                     </div>
                 </div>
                 <div class="cicrleAndEcommerence in-flex">
-                    <div class="circle">
-                        <img src="/IMG/Circle.svg" alt="">
+                    <div class="circle"> <a href="">
+                            <img src="/IMG/Circle.svg" alt="">
+                        </a>
                     </div>
-                    <div class="eCommerece">
-                        eCommerce
+                    <div><a class="eCommerece" href="">
+                            eCommerce</a>
                     </div>
                 </div>
             </div>
@@ -418,7 +432,7 @@
                             <img class="userIcon11" src="/IMG/userIcon.svg" alt="">
                         </div>
                         <div class="numberAndText">
-                            <div class="number">8.549KK</div>
+                            <div class="number">8.549K</div>
                             <div class="text">Customers</div>
                         </div>
                     </div>
@@ -541,7 +555,7 @@
                         <div class="currentYearAnddownArrow in-flex">
                             <div class="currentYear">2020</div>
                             <div class="downArrow">
-                                <img class="colour" src="/IMG/downArrow.svg" alt="">
+                                <i class="fas fa-angle-down"></i>
                             </div>
                         </div>
                         <div class="valueAndBudget">
@@ -566,265 +580,340 @@
         </div>
         <div class="miniContainer3">
             <div class="left-part">
-                <div class="table">
-                    <div class="header-row first-row">
-                        <div class="companyList in-flex">
-                            <div class="companey-text">Company</div>
-                            <div class="checkingbuttons">
-                                <div class="up-arrow">
-                                    <img src="/IMG/uparrow.png" alt="">
+                <table class="table">
+                    <tr class="header-row header-background row row-padding">
+                        <td>
+                            <div class="companyList flex-spaceBetween">
+                                <div class="companey-text">Company</div>
+                                <div class="checkingbuttons">
+                                    <div class="up-arrow">
+                                        <i class="fas fa-angle-up"></i>
+                                    </div>
+                                    <div class="down-arrow">
+                                        <i class="fas fa-angle-down arrow-colour"></i>
+                                    </div>
                                 </div>
-                                <div class="down-arrow">
-                                    <img src="/IMG/downArrow.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="categoryList in-flex">
-                            <div class="category-text">Category</div>
-                            <div class="checkingbuttons">
-                                <div class="up-arrow">
-                                    <img src="/IMG/uparrow.png" alt="">
-                                </div>
-                                <div class="down-arrow">
-                                    <img src="/IMG/downArrow.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="viewsList in-flex">
-                            <div class="views-text">Views</div>
-                            <div class="checkingbuttons">
-                                <div class="up-arrow">
-                                    <img src="/IMG/uparrow.png" alt="">
-                                </div>
-                                <div class="down-arrow">
-                                    <img src="/IMG/downArrow.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="categoryList flex-spaceBetween">
+                                <div class="category-text">Category</div>
+                                <div class="checkingbuttons">
+                                    <div class="up-arrow">
+                                        <i class="fas fa-angle-up arrow-colour"></i>
+                                    </div>
+                                    <div class="down-arrow">
+                                        <i class="fas fa-angle-down arrow-colour"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="revenueList in-flex">
-                            <div class="revenue-text">Revenue</div>
-                            <div class="checkingbuttons">
-                                <div class="up-arrow">
-                                    <img src="/IMG/uparrow.png" alt="">
-                                </div>
-                                <div class="down-arrow">
-                                    <img src="/IMG/downArrow.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="salesList in-flex">
-                            <div class="text">Sales</div>
-                            <div class="checkingbuttons">
-                                <div class="up-arrow">
-                                    <img src="/IMG/uparrow.png" alt="">
-                                </div>
-                                <div class="down-arrow">
-                                    <img src="/IMG/downArrow.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="viewsList flex-spaceBetween">
+                                <div class="views-text">Views</div>
+                                <div class="checkingbuttons">
+                                    <div class="up-arrow">
+                                        <i class="fas fa-angle-up arrow-colour"></i>
+                                    </div>
+                                    <div class="down-arrow">
+                                        <i class="fas fa-angle-down arrow-colour"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row second-row">
-                        <div class="iconAndCompanyDetails in-flex">
-                            <div class="icon">
-                                <img src="/IMG/iconfinder_toolbox.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="revenueList flex-spaceBetween">
+                                <div class="revenue-text">Revenue</div>
+                                <div class="checkingbuttons">
+                                    <div class="up-arrow">
+                                        <i class="fas fa-angle-up arrow-colour"></i>
+                                    </div>
+                                    <div class="down-arrow">
+                                        <i class="fas fa-angle-down arrow-colour"></i>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="compeny-nameAndMail">
-                                <div class="name">Dixons</div>
-                                <div class="mail">meguc@ruj.io</div>
+                        </td>
+                        <td>
+                            <div class="salesList flex-spaceBetween">
+                                <div class="text">Sales</div>
+                                <div class="checkingbuttons">
+                                    <div class="up-arrow">
+                                        <i class="fas fa-angle-up arrow-colour"></i>
+                                    </div>
+                                    <div class="down-arrow">
+                                        <i class="fas fa-angle-down arrow-colour"></i>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="iconAndCategory in-flex">
-                            <div class="technology-icon system">
-                                <img src="/IMG/systemTable.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr class="inner-part row row-padding">
+                        <td>
+                            <div class="iconAndCompanyDetails companyList in-flex">
+                                <div class="icon">
+                                    <img src="/IMG/iconfinder_toolbox.svg" alt="">
+                                </div>
+                                <div class="compeny-nameAndMail">
+                                    <div class="name">Dixons</div>
+                                    <div class="mail">meguc@ruj.io</div>
+                                </div>
                             </div>
-                            <div class="categoryName">Technology</div>
-                        </div>
-                        <div class="viewsAndDuringTime">
-                            <div class="views">23.4K</div>
-                            <div class="duringTime">In 24 hours</div>
-                        </div>
-                        <div class="revenue">$891.2</div>
-                        <div class="salesPercentageAndGraph in-flex">
-                            <div class="percentage">68%</div>
-                            <div class="graph">
-                                <img src="/IMG/redGraph-table.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="iconAndCategory in-flex">
+                                <div class="technology-icon system">
+                                    <img src="/IMG/systemTable.svg" alt="">
+                                </div>
+                                <div class="categoryName">Technology</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row third-row">
-                        <div class="iconAndCompanyDetails in-flex">
-                            <div class="icon">
-                                <img src="/IMG/iconfinder_parachute.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="viewsAndDuringTime">
+                                <div class="views">23.4K</div>
+                                <div class="duringTime">In 24 hours</div>
                             </div>
-                            <div class="compeny-nameAndMail">
-                                <div class="name">Dixons</div>
-                                <div class="mail">meguc@ruj.io</div>
+                        </td>
+                        <td>
+                            <div class="revenue">$891.2</div>
+                        </td>
+                        <td>
+                            <div class="salesPercentageAndGraph in-flex">
+                                <div class="percentage">68%</div>
+                                <div class="graph">
+                                    <img src="/IMG/redGraph-table.svg" alt="">
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="iconAndCategory in-flex">
-                            <div class="technology-icon cup">
-                                <img src="/IMG/Cup_table-Color.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr class="inner-part row row-padding">
+                        <td>
+                            <div class="iconAndCompanyDetails companyList in-flex">
+                                <div class="companey-icon2">
+                                    <img src="/IMG/iconfinder_parachute.svg" alt="">
+                                </div>
+                                <div class="compeny-nameAndMail">
+                                    <div class="name">Motels</div>
+                                    <div class="mail">vecav@hodzi.co.uk</div>
+                                </div>
                             </div>
-                            <div class="categoryName">Technology</div>
-                        </div>
-
-                        <div class="viewsAndDuringTime">
-                            <div class="views">23.4K</div>
-                            <div class="duringTime">In 24 hours</div>
-                        </div>
-                        <div class="revenue">$891.2</div>
-                        <div class="salesPercentageAndGraph in-flex">
-                            <div class="percentage">68%</div>
-                            <div class="graph">
-                                <img src="/IMG/graph_green-Icon.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="iconAndCategory in-flex">
+                                <div class="technology-icon cup">
+                                    <img src="/IMG/Cup_table-Color.svg" alt="">
+                                </div>
+                                <div class="categoryName">Grocery</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row fourth-row">
-                        <div class="iconAndCompanyDetails in-flex">
-                            <div class="icon">
-                                <img src="/IMG/paintBresh.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="viewsAndDuringTime">
+                                <div class="views">78K</div>
+                                <div class="duringTime">Iin 2 days</div>
                             </div>
-                            <div class="compeny-nameAndMail">
-                                <div class="name">Dixons</div>
-                                <div class="mail">meguc@ruj.io</div>
+                        </td>
+                        <td>
+                            <div class="revenue">$668.15</div>
+                        </td>
+                        <td>
+                            <div class="salesPercentageAndGraph in-flex">
+                                <div class="percentage">97%</div>
+                                <div class="graph">
+                                    <img src="/IMG/graph_green-Icon.svg" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="iconAndCategory in-flex">
-                            <div class="technology-icon watch">
-                                <img src="/IMG/watch_table-Icon.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr class="inner-part row row-padding">
+                        <td>
+                            <div class="iconAndCompanyDetails companyList  in-flex">
+                                <div class="companey-icon3">
+                                    <img src="/IMG/paintBresh.svg" alt="">
+                                </div>
+                                <div class="compeny-nameAndMail">
+                                    <div class="name">in 2 days</div>
+                                    <div class="mail">davcilse@is.gov</div>
+                                </div>
                             </div>
-                            <div class="categoryName">Technology</div>
-                        </div>
-                        <div class="viewsAndDuringTime">
-                            <div class="views">23.4K</div>
-                            <div class="duringTime">In 24 hours</div>
-                        </div>
-                        <div class="revenue">$891.2</div>
-                        <div class="salesPercentageAndGraph in-flex">
-                            <div class="percentage">68%</div>
-                            <div class="graph">
-                                <img src="/IMG/greenGraph-table.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="iconAndCategory in-flex">
+                                <div class="technology-icon watch">
+                                    <img src="/IMG/watch_table-Icon.svg" alt="">
+                                </div>
+                                <div class="categoryName">Fashion</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row fifth-row">
-                        <div class="iconAndCompanyDetails in-flex">
-                            <div class="icon">
-                                <img src="/IMG/starTable.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="viewsAndDuringTime">
+                                <div class="views">162</div>
+                                <div class="duringTime">in 5 days</div>
                             </div>
-                            <div class="compeny-nameAndMail">
-                                <div class="name">Dixons</div>
-                                <div class="mail">meguc@ruj.io</div>
+                        </td>
+                        <td>
+                            <div class="revenue">$522.29</div>
+                        </td>
+                        <td>
+                            <div class="salesPercentageAndGraph in-flex">
+                                <div class="percentage">62%</div>
+                                <div class="graph">
+                                    <img src="/IMG/greenGraph-table.svg" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="iconAndCategory in-flex">
-                            <div class="technology-icon system">
-                                <img src="/IMG/systemTable.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr class="inner-part row row-padding">
+                        <td>
+                            <div class="iconAndCompanyDetails companyList  in-flex">
+                                <div class="icon">
+                                    <img src="/IMG/starTable.svg" alt="">
+                                </div>
+                                <div class="compeny-nameAndMail">
+                                    <div class="name">Owning</div>
+                                    <div class="mail">us@cuhil.gov</div>
+                                </div>
                             </div>
-                            <div class="categoryName">Technology</div>
-                        </div>
-                        <div class="viewsAndDuringTime">
-                            <div class="views">23.4K</div>
-                            <div class="duringTime">In 24 hours</div>
-                        </div>
-                        <div class="revenue">$891.2</div>
-                        <div class="salesPercentageAndGraph in-flex">
-                            <div class="percentage">68%</div>
-                            <div class="graph">
-                                <img src="/IMG/greenGraph-table.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="iconAndCategory in-flex">
+                                <div class="technology-icon system">
+                                    <img src="/IMG/systemTable.svg" alt="">
+                                </div>
+                                <div class="categoryName">Technology</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row sixth-row">
-                        <div class="iconAndCompanyDetails in-flex">
-                            <div class="icon">
-                                <img src="/IMG/cafesTable.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="viewsAndDuringTime">
+                                <div class="views">214</div>
+                                <div class="duringTime">In 24 hours</div>
                             </div>
-                            <div class="compeny-nameAndMail">
-                                <div class="name">Dixons</div>
-                                <div class="mail">meguc@ruj.io</div>
+                        </td>
+                        <td>
+                            <div class="revenue">$291.01</div>
+                        </td>
+                        <td>
+                            <div class="salesPercentageAndGraph in-flex">
+                                <div class="percentage">88%</div>
+                                <div class="graph">
+                                    <img src="/IMG/greenGraph-table.svg" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="iconAndCategory in-flex">
-                            <div class="technology-icon cup">
-                                <img src="/IMG/Cup_table-Color.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr class="inner-part row row-padding">
+                        <td>
+                            <div class="iconAndCompanyDetails companyList  in-flex">
+                                <div class="companey-icon5">
+                                    <img src="/IMG/cafesTable.svg" alt="">
+                                </div>
+                                <div class="compeny-nameAndMail">
+                                    <div class="name">Cafés</div>
+                                    <div class="mail">pudais@jife.com</div>
+                                </div>
                             </div>
-                            <div class="categoryName">Technology</div>
-                        </div>
-                        <div class="viewsAndDuringTime">
-                            <div class="views">23.4K</div>
-                            <div class="duringTime">In 24 hours</div>
-                        </div>
-                        <div class="revenue">$891.2</div>
-                        <div class="salesPercentageAndGraph in-flex">
-                            <div class="percentage">68%</div>
-                            <div class="graph">
-                                <img src="/IMG/redGraph-table.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="iconAndCategory in-flex">
+                                <div class="technology-icon cup">
+                                    <img src="/IMG/Cup_table-Color.svg" alt="">
+                                </div>
+                                <div class="categoryName">Grocery</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row seventh-row">
-                        <div class="iconAndCompanyDetails in-flex">
-                            <div class="icon">
-                                <img src="/IMG/iconfinder_rocket_Table.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="viewsAndDuringTime">
+                                <div class="views">208</div>
+                                <div class="duringTime">In 1 week</div>
                             </div>
-                            <div class="compeny-nameAndMail">
-                                <div class="name">Dixons</div>
-                                <div class="mail">meguc@ruj.io</div>
+                        </td>
+                        <td>
+                            <div class="revenue">$783.97</div>
+                        </td>
+                        <td>
+                            <div class="salesPercentageAndGraph in-flex">
+                                <div class="percentage">16%</div>
+                                <div class="graph">
+                                    <img src="/IMG/redGraph-table.svg" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="iconAndCategory in-flex">
-                            <div class="technology-icon watch">
-                                <img src="/IMG/watch_table-Icon.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr class="inner-part row row-padding">
+                        <td>
+                            <div class="iconAndCompanyDetails companyList  in-flex">
+                                <div class="icon">
+                                    <img src="/IMG/iconfinder_rocket_Table.svg" alt="">
+                                </div>
+                                <div class="compeny-nameAndMail">
+                                    <div class="name">Kmart</div>
+                                    <div class="mail">bipri@cawiw.com</div>
+                                </div>
                             </div>
-                            <div class="categoryName">Technology</div>
-                        </div>
-                        <div class="viewsAndDuringTime">
-                            <div class="views">23.4K</div>
-                            <div class="duringTime">In 24 hours</div>
-                        </div>
-                        <div class="revenue">$891.2</div>
-                        <div class="salesPercentageAndGraph in-flex">
-                            <div class="percentage">68%</div>
-                            <div class="graph">
-                                <img src="/IMG/greenGraph-table.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="iconAndCategory in-flex">
+                                <div class="technology-icon watch">
+                                    <img src="/IMG/watch_table-Icon.svg" alt="">
+                                </div>
+                                <div class="categoryName">Fashion</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row eight-row">
-                        <div class="iconAndCompanyDetails in-flex">
-                            <div class="icon">
-                                <img src="/IMG/playerTable.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="viewsAndDuringTime">
+                                <div class="views">990</div>
+                                <div class="duringTime">In 1 month</div>
                             </div>
-                            <div class="compeny-nameAndMail">
-                                <div class="name">Dixons</div>
-                                <div class="mail">meguc@ruj.io</div>
+                        </td>
+                        <td>
+                            <div class="revenue">$780.05</div>
+                        </td>
+                        <td>
+                            <div class="salesPercentageAndGraph in-flex">
+                                <div class="percentage">78%</div>
+                                <div class="graph">
+                                    <img src="/IMG/greenGraph-table.svg" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="iconAndCategory in-flex">
-                            <div class="technology-icon watch">
-                                <img src="/IMG/watch_table-Icon.svg" alt="">
+                        </td>
+                    </tr>
+                    <tr class="last-row">
+                        <td>
+                            <div class="iconAndCompanyDetails companyList  in-flex">
+                                <div class="companey-icon7">
+                                    <img src="/IMG/playerTable.svg" alt="">
+                                </div>
+                                <div class="compeny-nameAndMail">
+                                    <div class="name">Payers</div>
+                                    <div class="mail">luk@izug.io</div>
+                                </div>
                             </div>
-                            <div class="categoryName">Technology</div>
-                        </div>
-                        <div class="viewsAndDuringTime">
-                            <div class="views">23.4K</div>
-                            <div class="duringTime">In 24 hours</div>
-                        </div>
-                        <div class="revenue">$891.2</div>
-                        <div class="salesPercentageAndGraph in-flex">
-                            <div class="percentage">68%</div>
-                            <div class="graph">
-                                <img src="/IMG/greenGraph-table.svg" alt="">
+                        </td>
+                        <td>
+                            <div class="iconAndCategory in-flex">
+                                <div class="technology-icon watch">
+                                    <img src="/IMG/watch_table-Icon.svg" alt="">
+                                </div>
+                                <div class="categoryName">Fashion</div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </td>
+                        <td>
+                            <div class="viewsAndDuringTime">
+                                <div class="views">12.9K</div>
+                                <div class="duringTime">In 24 hours</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="revenue">$780.05</div>
+                        </td>
+                        <td>
+                            <div class="salesPercentageAndGraph in-flex">
+                                <div class="percentage">78%</div>
+                                <div class="graph">
+                                    <img src="/IMG/greenGraph-table.svg" alt="">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
             <div class="right-part">
                 <div class="image">
@@ -958,12 +1047,14 @@
                 </div>
             </div>
             <div class="overView">
-                <div class="question">
-                    <img src="/IMG/QuestionIcon.svg" alt="">
-                </div>
-                <h4 class="text">Goal Overview</h4>
-                <div class="percentage">
-                    <img src="/IMG/OverviewChart.svg" alt="">
+                <div class="questionIconAndpercentage">
+                    <div class="question">
+                        <img src="/IMG/QuestionIcon.svg" alt="">
+                    </div>
+                    <h4 class="text">Goal Overview</h4>
+                    <div class="percentage">
+                        <img src="/IMG/OverviewChart.svg" alt="">
+                    </div>
                 </div>
                 <div class="completedAndProgress-vales in-flex">
                     <div class="completed padding-setup">

@@ -7,13 +7,15 @@
 body {
     display: flex;
     background: #e5e5e5;
-    margin-right: 28px;
+    // margin-right: 28px;
     aside {
         height: 100%;
         background: #ffffff;
         width: 260px;
         padding: 25px 15px 0 15px;
-        margin-left: 50px;
+        a {
+            text-decoration: none;
+        }
         .logo_titleAndSettingsIcon {
             display: flex;
             justify-content: space-between;
@@ -28,7 +30,10 @@ body {
                 letter-spacing: -0.4285714328289032px;
                 text-align: left;
                 color: #7367f0;
-                margin-left: 11.1px;
+                margin-left: 11.41px;
+            }
+            .settingsIcon {
+                margin-right: 10px;
             }
         }
         .in-flex {
@@ -69,9 +74,10 @@ body {
             }
         }
         .pageThings {
-            margin: 28px 0 37px 0;
+            margin: 37px 0 37px 0;
 
             .dashboardAndPages {
+                border-radius: 5px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -81,13 +87,13 @@ body {
                     align-items: center;
                 }
                 .pageNumber {
-                    width: 24px;
                     font-size: 12px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: 18px;
                     letter-spacing: 0px;
                     text-align: center;
+                    padding: 1px 7px;
                     border-radius: 50%;
                     background: #7367f0;
                     color: #ffffff;
@@ -103,15 +109,19 @@ body {
                 margin-bottom: 7px;
             }
             .circleAnalytics {
-                padding: 10px 117px 8px 15px;
+                border-radius: 5px;
+                padding: 10px 0px 8px 15px;
                 background: #7367f0;
                 margin-bottom: 7px;
             }
             .cicrleAndEcommerence {
-                padding: 10px 117px 8px 15px;
+                border-radius: 5px;
+                padding: 10px 0px 8px 15px;
             }
         }
         .apps {
+            margin-left: 14px;
+            padding-bottom: 19px;
             ul {
                 list-style-type: none;
             }
@@ -146,10 +156,12 @@ body {
                 justify-content: space-between;
             }
             .arrowButton {
-                margin-right: 20px;
+                margin-right: 27px;
             }
         }
         .userInteface-elments {
+            margin-left: 14px;
+            padding-bottom: 19px;
             ul {
                 list-style-type: none;
             }
@@ -201,6 +213,7 @@ body {
             }
         }
         .formsAndTables {
+            margin-left: 14px;
             ul {
                 list-style-type: none;
             }
@@ -241,11 +254,10 @@ body {
     }
     .mainContainer {
         width: 100%;
-        margin: 21px 28px 0 28px;
+        padding: 21px 28px 0 28px;
         display: flex;
         flex-direction: column;
         .header {
-            margin-right: 28px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -309,15 +321,13 @@ body {
         }
         .minContainers1 {
             display: flex;
-            align-items: center;
-            margin-right: 28px;
             .left-part {
                 .wishesAndBadge {
                     display: flex;
                     background: #ffffff;
                     border-radius: 6px;
                     .wishesAndMoney {
-                        padding: 13px 20px 22px 21px;
+                        padding: 13px 11px 22px 21px;
                         .whishes {
                             width: 189px;
                             font-size: 15px;
@@ -351,25 +361,29 @@ body {
                             margin-bottom: 11px;
                         }
                         .sales {
-                            width: 85px;
+                            width: 61px;
                             padding: 8px 16px 9px 20px;
                             background: #7367f0;
                             border-radius: 6px;
                             color: #ffffff;
+                            font-size: 11px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 13px;
+                            letter-spacing: 0.36666667461395264px;
                         }
                     }
                     .badge {
-                        padding: 0px 31px 0px 20px;
+                        padding: 0px 40px 0px 20px;
                     }
                 }
             }
             .right-part {
-                height: 160px;
                 width: 100%;
                 background: #ffffff;
                 margin-left: 28px;
                 border-radius: 6px;
-                padding: 23px 29px 0px 30px;
+                padding: 22px 29px 0px 30px;
                 .flex-spaceBetween {
                     display: flex;
                     justify-content: space-between;
@@ -379,7 +393,7 @@ body {
                     align-items: center;
                 }
                 .satatisticsAndUpdatedTime {
-                    margin-bottom: 60px;
+                    margin-bottom: 46px;
                     .statisticsText {
                         font-size: 18px;
                         font-style: normal;
@@ -400,26 +414,23 @@ body {
                     }
                 }
                 .statistics {
-                    .gap-setup {
-                        margin-right: 22px;
-                    }
                     .graph {
-                        padding: 7px;
+                        padding: 12px 12px 10px 12px;
                         background: #d8d6ec;
                         border-radius: 50%;
                     }
                     .userIcon {
-                        padding: 7px;
+                        padding: 12px 12px 10px 12px;
                         background: #defafd;
                         border-radius: 50%;
                     }
                     .cubeicon {
-                        padding: 7px;
+                        padding: 12px 12px 10px 12px;
                         background: #fcd6d6;
                         border-radius: 50%;
                     }
                     .doller {
-                        padding: 7px;
+                        padding: 12px 12px 10px 12px;
                         background: #e1faec;
                         border-radius: 50%;
                     }
@@ -449,9 +460,7 @@ body {
         }
         .miniContainer2 {
             display: flex;
-            // align-items: center;
             margin-top: 28px;
-            margin-right: 28px;
             .left-part {
                 .top-part {
                     display: flex;
@@ -467,6 +476,7 @@ body {
                             letter-spacing: 0px;
                             text-align: left;
                             color: #5e5873;
+                            margin-bottom: 8px;
                         }
                         .number {
                             font-size: 24px;
@@ -478,7 +488,7 @@ body {
                             color: #5e5b73;
                         }
                         .chart {
-                            margin-top: 40px;
+                            margin-top: 26px;
                         }
                     }
                     .profit {
@@ -506,7 +516,7 @@ body {
                             color: #5e5873;
                         }
                         .chart {
-                            margin-top: 26px;
+                            margin-top: 21px;
                         }
                     }
                 }
@@ -571,7 +581,6 @@ body {
                 border-radius: 6px;
                 margin-left: 29px;
                 width: 100%;
-                padding: 18px;
                 background: #ffffff;
                 .in-flex {
                     display: flex;
@@ -583,6 +592,7 @@ body {
                     justify-content: space-between;
                 }
                 .revenue-report {
+                    padding: 29px 0 0 18px;
                     .headerofBox {
                         .revenueText {
                             font-size: 18px;
@@ -607,6 +617,7 @@ body {
                         }
                         .identifyingSymbolAndExpenseText {
                             margin-left: 19px;
+                            margin-right: 20px;
                             .text {
                                 font-size: 14px;
                                 font-style: normal;
@@ -622,8 +633,8 @@ body {
                     .revenueChart {
                         .values {
                             ul {
-                                margin-top: 37px;
-                                margin-right: 45px;
+                                margin-top: 35px;
+                                margin-right: 34px;
                                 list-style-type: none;
                                 li {
                                     margin-bottom: 22px;
@@ -639,7 +650,7 @@ body {
                         }
                         .comparingMonth {
                             ul {
-                                margin-left: 70px;
+                                margin-left: 55px;
                                 display: flex;
                                 li {
                                     list-style-type: none;
@@ -650,31 +661,29 @@ body {
                                     letter-spacing: 0px;
                                     text-align: center;
                                     color: #b9b9c3;
-                                    margin-right: 22.5px;
+                                    margin-right: 23.5px;
                                 }
                             }
                         }
                     }
                 }
                 .virtical-line {
-                    margin-left: 15px;
-                    height: 100%;
                     border: 1px solid #ebe9f1;
                 }
                 .budget {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    margin-left: 15px;
-                    padding: 20px;
+                    text-align: center;
+                    margin-top: 25px;
                     .yearAndBudget {
                         .currentYearAnddownArrow {
-                            margin-left: 15px;
+                            margin-left: 22.5px;
                             width: 45px;
                             margin-bottom: 40px;
                             border: 1px solid #7367f0;
-                            padding: 3px 6px;
                             border-radius: 6px;
+                            padding: 3px 10px 3px 6px;
                             .currentYear {
                                 font-size: 12px;
                                 font-style: normal;
@@ -684,6 +693,10 @@ body {
                                 text-align: center;
                                 color: #7367f0;
                                 margin-right: 6px;
+                            }
+                            .downArrow {
+                                color: #7367f0;
+                                font-size: 17px;
                             }
                         }
                         .valueAndBudget {
@@ -732,24 +745,43 @@ body {
             display: flex;
             align-items: center;
             margin-top: 28px;
-            margin-right: 28px;
             .in-flex {
                 display: flex;
+                align-items: center;
+            }
+            .flex-spaceBetween {
+                display: flex;
+                justify-content: space-between;
                 align-items: center;
             }
             .left-part {
                 margin-right: 28px;
                 .table {
-                    border-radius: 6px;
-                    .header-row {
-                        width: 720px;
-                        display: flex;
-                        justify-content: space-between;
-                        padding: 10px 20px;
+                    border-spacing: 0;
+                    width: 740px;
+                    .header-background {
                         background: #f3f2f7;
+                        border: 3px solid #f8f8f8;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        td {
+                            padding: 11px 20px;
+                            border: none;
+                        }
                         .companyList {
-                            // margin-right: 28px;
                             .companey-text {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 15px;
+                                letter-spacing: 1px;
+                                text-align: left;
+                                margin-right: 86px;
+                            }
+                        }
+                        .categoryList {
+                            .category-text {
                                 font-size: 12px;
                                 font-style: normal;
                                 font-weight: 600;
@@ -759,9 +791,8 @@ body {
                                 margin-right: 80px;
                             }
                         }
-                        .categoryList {
-                            // margin-right: 25px;
-                            .category-text {
+                        .viewsList {
+                            .views-text {
                                 font-size: 12px;
                                 font-style: normal;
                                 font-weight: 600;
@@ -771,20 +802,7 @@ body {
                                 margin-right: 40px;
                             }
                         }
-                        .viewsList {
-                            // margin-right: 25px;
-                            .views-text {
-                                font-size: 12px;
-                                font-style: normal;
-                                font-weight: 600;
-                                line-height: 15px;
-                                letter-spacing: 1px;
-                                text-align: left;
-                                margin-right: 28px;
-                            }
-                        }
                         .revenueList {
-                            // margin-right: 25px;
                             .revenue-text {
                                 font-size: 12px;
                                 font-style: normal;
@@ -803,29 +821,30 @@ body {
                                 line-height: 15px;
                                 letter-spacing: 1px;
                                 text-align: left;
-                                margin-right: 14px;
+                                margin-right: 25px;
                             }
                         }
+                        .arrow-colour {
+                            color: #babfc7;
+                        }
                     }
-                    .row {
-                        width: 720px;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        padding: 10px 20px;
+                    .inner-part {
                         background: #ffffff;
-                        border: 3px solid #f8f8f8;
-                        border-left: none;
-                        border-top: none;
-                        border-right: none;
+                        td {
+                            padding: 10.4px 20px;
+                            border: 3px solid #f8f8f8;
+                            border-top: none;
+                            border-left: none;
+                            border-right: none;
+                        }
                         .iconAndCompanyDetails {
                             .icon {
-                                padding: 7px 6px;
                                 background: #f8f8f8;
-                                border-radius: 6px;
-                                margin-right: 20px;
+                                padding: 6px 7px 4px 7px;
+                                border-radius: 5px;
                             }
                             .compeny-nameAndMail {
+                                margin-left: 10px;
                                 .name {
                                     font-size: 14px;
                                     font-style: normal;
@@ -847,12 +866,9 @@ body {
                             }
                         }
                         .iconAndCategory {
-                            margin-left: 0px;
-                            .technology-icon {
-                                margin-right: 10px;
-                            }
                             .categoryName {
                                 font-size: 14px;
+                                padding: 7px 6px;
                                 font-style: normal;
                                 font-weight: 400;
                                 line-height: 21px;
@@ -862,7 +878,7 @@ body {
                             }
                         }
                         .viewsAndDuringTime {
-                            margin-left: -30px;
+                            margin-left: 7px;
                             .views {
                                 font-size: 14px;
                                 font-style: normal;
@@ -883,7 +899,6 @@ body {
                             }
                         }
                         .revenue {
-                            margin-right: 20px;
                             font-size: 14px;
                             font-style: normal;
                             font-weight: 400;
@@ -893,7 +908,7 @@ body {
                             color: #6e6b7b;
                         }
                         .salesPercentageAndGraph {
-                            margin-right: 5px;
+                            margin-right: 15px;
                             .percentage {
                                 margin-right: 5px;
                                 font-size: 14px;
@@ -905,24 +920,175 @@ body {
                                 margin-right: 10px;
                             }
                         }
+                        .companey-icon2 {
+                            background: #f8f8f8;
+                            padding: 6px 7px 3px 7px;
+                            border-radius: 5px;
+                        }
+                        .companey-icon3 {
+                            background: #f8f8f8;
+                            padding: 6px 9px 3px 9px;
+                            border-radius: 5px;
+                        }
+                        .companey-icon5 {
+                            background: #f8f8f8;
+                            padding: 7px 9px 3px 9px;
+                            border-radius: 5px;
+                        }
+                        .companey-icon7 {
+                            background: #f8f8f8;
+                            padding: 10px 9px 8px 9px;
+                            border-radius: 5px;
+                        }
+                        .system {
+                            padding: 7px 7px 4px 7px;
+                            background: #c8c4f7;
+                            border-radius: 50%;
+                            margin-right: 10px;
+                        }
+                        .cup {
+                            padding: 7px 7px 4px 8px;
+                            background: #dcf1e6;
+                            border-radius: 50%;
+                            margin-right: 10px;
+                        }
+                        .watch {
+                            padding: 7px 7px 4px 6px;
+                            background: #eed6c0;
+                            border-radius: 50%;
+                            margin-right: 10px;
+                        }
                     }
-                    .system {
-                        padding: 7px 6px 6px 6px;
-                        background: #c8c4f7;
-                        border-radius: 50%;
-                    }
-                    .cup {
-                        padding: 7px 6px 6px 6px;
-                        background: #dcf1e6;
-                        border-radius: 50%;
-                    }
-                    .watch {
-                        padding: 7px 6px 6px 6px;
-                        background: #eed6c0;
-                        border-radius: 50%;
+                    .last-row {
+                        background: #ffffff;
+                        td {
+                            padding: 10.4px 20px;
+                        }
+                        .iconAndCompanyDetails {
+                            .icon {
+                                background: #f8f8f8;
+                                padding: 6px 7px 4px 7px;
+                                border-radius: 5px;
+                            }
+                            .compeny-nameAndMail {
+                                margin-left: 10px;
+                                .name {
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: 21px;
+                                    letter-spacing: 0px;
+                                    text-align: left;
+                                    color: #6e6b7b;
+                                }
+                                .mail {
+                                    font-size: 12px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 18px;
+                                    letter-spacing: 0px;
+                                    text-align: left;
+                                    color: #b9b9c3;
+                                }
+                            }
+                        }
+                        .iconAndCategory {
+                            .categoryName {
+                                font-size: 14px;
+                                padding: 7px 6px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 21px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #6e6b7b;
+                            }
+                        }
+                        .viewsAndDuringTime {
+                            margin-left: 7px;
+                            .views {
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 21px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #6e6b7b;
+                            }
+                            .duringTime {
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 18px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                color: #b9b9c3;
+                            }
+                        }
+                        .revenue {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 21px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #6e6b7b;
+                        }
+                        .salesPercentageAndGraph {
+                            margin-right: 15px;
+                            .percentage {
+                                margin-right: 5px;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 21px;
+                                letter-spacing: 0px;
+                                text-align: left;
+                                margin-right: 10px;
+                            }
+                        }
+                        .companey-icon2 {
+                            background: #f8f8f8;
+                            padding: 6px 7px 3px 7px;
+                            border-radius: 5px;
+                        }
+                        .companey-icon3 {
+                            background: #f8f8f8;
+                            padding: 6px 9px 3px 9px;
+                            border-radius: 5px;
+                        }
+                        .companey-icon5 {
+                            background: #f8f8f8;
+                            padding: 7px 9px 3px 9px;
+                            border-radius: 5px;
+                        }
+                        .companey-icon7 {
+                            background: #f8f8f8;
+                            padding: 10px 9px 8px 9px;
+                            border-radius: 5px;
+                        }
+                        .system {
+                            padding: 7px 7px 4px 7px;
+                            background: #c8c4f7;
+                            border-radius: 50%;
+                            margin-right: 10px;
+                        }
+                        .cup {
+                            padding: 7px 7px 4px 8px;
+                            background: #dcf1e6;
+                            border-radius: 50%;
+                            margin-right: 10px;
+                        }
+                        .watch {
+                            padding: 7px 7px 4px 6px;
+                            background: #eed6c0;
+                            border-radius: 50%;
+                            margin-right: 10px;
+                        }
                     }
                 }
             }
+
             .right-part {
                 border-radius: 5px;
                 background: #ffffff;
@@ -973,9 +1139,9 @@ body {
                     .calender {
                         margin-bottom: 17px;
                         .iconBackground {
-                            padding: 6px;
+                            padding: 6px 6px 4px 6px;
                             border-radius: 5px;
-                            background: #b5aff5;
+                            background: #e4e3f7;
                             margin-right: 14px;
                         }
                         .slotTimings {
@@ -1002,9 +1168,9 @@ body {
                     .location {
                         margin-bottom: 40px;
                         .iconBackground {
-                            padding: 6px;
+                            padding: 6px 6px 4px 6px;
                             border-radius: 5px;
-                            background: #b5aff5;
+                            background: #e4e3f7;
                             margin-right: 14px;
                         }
                         .location-nameAndLandMark {
@@ -1027,6 +1193,9 @@ body {
                                 color: #b9b9c3;
                             }
                         }
+                    }
+                    .attendedPeople {
+                        margin-left:-5px;
                     }
                 }
             }
@@ -1097,25 +1266,27 @@ body {
                 }
             }
             .overView {
-                width: 320px;
+                width: 345px;
                 background: #ffffff;
                 margin-left: 28px;
-                padding: 20px 30px 0 20px;
                 border-radius: 5px;
-                .question {
-                    text-align: right;
-                }
-                .text {
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: bold;
-                    line-height: 22px;
-                    letter-spacing: 0px;
-                    text-align: left;
-                    color: #5e5873;
-                }
-                .percentage {
-                    text-align: center;
+                .questionIconAndpercentage {
+                    padding: 20px 30px 0 20px;
+                    .question {
+                        text-align: right;
+                    }
+                    .text {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: bold;
+                        line-height: 22px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #5e5873;
+                    }
+                    .percentage {
+                        text-align: center;
+                    }
                 }
                 .completedAndProgress-vales {
                     border: 2px solid #ebe9f1;
@@ -1154,7 +1325,7 @@ body {
             }
             .transactions {
                 margin-left: 28px;
-                width: 320px;
+                width: 342px;
                 background: #ffffff;
                 padding: 18px 16px 0px 20px;
                 border-radius: 5px;

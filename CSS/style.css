@@ -9,7 +9,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   background: #e5e5e5;
-  margin-right: 28px;
 }
 
 body aside {
@@ -17,7 +16,10 @@ body aside {
   background: #ffffff;
   width: 260px;
   padding: 25px 15px 0 15px;
-  margin-left: 50px;
+}
+
+body aside a {
+  text-decoration: none;
 }
 
 body aside .logo_titleAndSettingsIcon {
@@ -41,7 +43,11 @@ body aside .logo_titleAndSettingsIcon .title {
   letter-spacing: -0.4285714328289032px;
   text-align: left;
   color: #7367f0;
-  margin-left: 11.1px;
+  margin-left: 11.41px;
+}
+
+body aside .logo_titleAndSettingsIcon .settingsIcon {
+  margin-right: 10px;
 }
 
 body aside .in-flex {
@@ -92,10 +98,11 @@ body aside .in-flex .circle {
 }
 
 body aside .pageThings {
-  margin: 28px 0 37px 0;
+  margin: 37px 0 37px 0;
 }
 
 body aside .pageThings .dashboardAndPages {
+  border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,13 +124,13 @@ body aside .pageThings .dashboardAndPages .dashboardPages {
 }
 
 body aside .pageThings .dashboardAndPages .pageNumber {
-  width: 24px;
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: 18px;
   letter-spacing: 0px;
   text-align: center;
+  padding: 1px 7px;
   border-radius: 50%;
   background: #7367f0;
   color: #ffffff;
@@ -141,13 +148,20 @@ body aside .pageThings .dashboardAndPages {
 }
 
 body aside .pageThings .circleAnalytics {
-  padding: 10px 117px 8px 15px;
+  border-radius: 5px;
+  padding: 10px 0px 8px 15px;
   background: #7367f0;
   margin-bottom: 7px;
 }
 
 body aside .pageThings .cicrleAndEcommerence {
-  padding: 10px 117px 8px 15px;
+  border-radius: 5px;
+  padding: 10px 0px 8px 15px;
+}
+
+body aside .apps {
+  margin-left: 14px;
+  padding-bottom: 19px;
 }
 
 body aside .apps ul {
@@ -196,7 +210,12 @@ body aside .apps .flex-spaceBetween {
 }
 
 body aside .apps .arrowButton {
-  margin-right: 20px;
+  margin-right: 27px;
+}
+
+body aside .userInteface-elments {
+  margin-left: 14px;
+  padding-bottom: 19px;
 }
 
 body aside .userInteface-elments ul {
@@ -262,6 +281,10 @@ body aside .userInteface-elments .addingNew {
   border-radius: 50px;
 }
 
+body aside .formsAndTables {
+  margin-left: 14px;
+}
+
 body aside .formsAndTables ul {
   list-style-type: none;
 }
@@ -313,7 +336,7 @@ body aside .formsAndTables .arrowButton {
 
 body .mainContainer {
   width: 100%;
-  margin: 21px 28px 0 28px;
+  padding: 21px 28px 0 28px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,7 +347,6 @@ body .mainContainer {
 }
 
 body .mainContainer .header {
-  margin-right: 28px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -412,10 +434,6 @@ body .mainContainer .minContainers1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 28px;
 }
 
 body .mainContainer .minContainers1 .left-part .wishesAndBadge {
@@ -427,7 +445,7 @@ body .mainContainer .minContainers1 .left-part .wishesAndBadge {
 }
 
 body .mainContainer .minContainers1 .left-part .wishesAndBadge .wishesAndMoney {
-  padding: 13px 20px 22px 21px;
+  padding: 13px 11px 22px 21px;
 }
 
 body .mainContainer .minContainers1 .left-part .wishesAndBadge .wishesAndMoney .whishes {
@@ -466,24 +484,28 @@ body .mainContainer .minContainers1 .left-part .wishesAndBadge .wishesAndMoney .
 }
 
 body .mainContainer .minContainers1 .left-part .wishesAndBadge .wishesAndMoney .sales {
-  width: 85px;
+  width: 61px;
   padding: 8px 16px 9px 20px;
   background: #7367f0;
   border-radius: 6px;
   color: #ffffff;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0.36666667461395264px;
 }
 
 body .mainContainer .minContainers1 .left-part .wishesAndBadge .badge {
-  padding: 0px 31px 0px 20px;
+  padding: 0px 40px 0px 20px;
 }
 
 body .mainContainer .minContainers1 .right-part {
-  height: 160px;
   width: 100%;
   background: #ffffff;
   margin-left: 28px;
   border-radius: 6px;
-  padding: 23px 29px 0px 30px;
+  padding: 22px 29px 0px 30px;
 }
 
 body .mainContainer .minContainers1 .right-part .flex-spaceBetween {
@@ -505,7 +527,7 @@ body .mainContainer .minContainers1 .right-part .in-flex {
 }
 
 body .mainContainer .minContainers1 .right-part .satatisticsAndUpdatedTime {
-  margin-bottom: 60px;
+  margin-bottom: 46px;
 }
 
 body .mainContainer .minContainers1 .right-part .satatisticsAndUpdatedTime .statisticsText {
@@ -528,30 +550,26 @@ body .mainContainer .minContainers1 .right-part .satatisticsAndUpdatedTime .upda
   color: #6e6b7b;
 }
 
-body .mainContainer .minContainers1 .right-part .statistics .gap-setup {
-  margin-right: 22px;
-}
-
 body .mainContainer .minContainers1 .right-part .statistics .graph {
-  padding: 7px;
+  padding: 12px 12px 10px 12px;
   background: #d8d6ec;
   border-radius: 50%;
 }
 
 body .mainContainer .minContainers1 .right-part .statistics .userIcon {
-  padding: 7px;
+  padding: 12px 12px 10px 12px;
   background: #defafd;
   border-radius: 50%;
 }
 
 body .mainContainer .minContainers1 .right-part .statistics .cubeicon {
-  padding: 7px;
+  padding: 12px 12px 10px 12px;
   background: #fcd6d6;
   border-radius: 50%;
 }
 
 body .mainContainer .minContainers1 .right-part .statistics .doller {
-  padding: 7px;
+  padding: 12px 12px 10px 12px;
   background: #e1faec;
   border-radius: 50%;
 }
@@ -585,7 +603,6 @@ body .mainContainer .miniContainer2 {
   display: -ms-flexbox;
   display: flex;
   margin-top: 28px;
-  margin-right: 28px;
 }
 
 body .mainContainer .miniContainer2 .left-part .top-part {
@@ -608,6 +625,7 @@ body .mainContainer .miniContainer2 .left-part .top-part .orderAndGraph .text {
   letter-spacing: 0px;
   text-align: left;
   color: #5e5873;
+  margin-bottom: 8px;
 }
 
 body .mainContainer .miniContainer2 .left-part .top-part .orderAndGraph .number {
@@ -621,7 +639,7 @@ body .mainContainer .miniContainer2 .left-part .top-part .orderAndGraph .number 
 }
 
 body .mainContainer .miniContainer2 .left-part .top-part .orderAndGraph .chart {
-  margin-top: 40px;
+  margin-top: 26px;
 }
 
 body .mainContainer .miniContainer2 .left-part .top-part .profit {
@@ -653,7 +671,7 @@ body .mainContainer .miniContainer2 .left-part .top-part .profit .number {
 }
 
 body .mainContainer .miniContainer2 .left-part .top-part .profit .chart {
-  margin-top: 26px;
+  margin-top: 21px;
 }
 
 body .mainContainer .miniContainer2 .left-part .bottom-part {
@@ -732,7 +750,6 @@ body .mainContainer .miniContainer2 .right-part {
   border-radius: 6px;
   margin-left: 29px;
   width: 100%;
-  padding: 18px;
   background: #ffffff;
 }
 
@@ -755,6 +772,10 @@ body .mainContainer .miniContainer2 .right-part .flex-spaceBetween {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+body .mainContainer .miniContainer2 .right-part .revenue-report {
+  padding: 29px 0 0 18px;
 }
 
 body .mainContainer .miniContainer2 .right-part .revenue-report .headerofBox .revenueText {
@@ -780,6 +801,7 @@ body .mainContainer .miniContainer2 .right-part .revenue-report .headerofBox .id
 
 body .mainContainer .miniContainer2 .right-part .revenue-report .headerofBox .identifyingSymbolAndExpenseText {
   margin-left: 19px;
+  margin-right: 20px;
 }
 
 body .mainContainer .miniContainer2 .right-part .revenue-report .headerofBox .identifyingSymbolAndExpenseText .text {
@@ -794,8 +816,8 @@ body .mainContainer .miniContainer2 .right-part .revenue-report .headerofBox .id
 }
 
 body .mainContainer .miniContainer2 .right-part .revenue-report .revenueChart .values ul {
-  margin-top: 37px;
-  margin-right: 45px;
+  margin-top: 35px;
+  margin-right: 34px;
   list-style-type: none;
 }
 
@@ -811,7 +833,7 @@ body .mainContainer .miniContainer2 .right-part .revenue-report .revenueChart .v
 }
 
 body .mainContainer .miniContainer2 .right-part .revenue-report .revenueChart .comparingMonth ul {
-  margin-left: 70px;
+  margin-left: 55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -826,12 +848,10 @@ body .mainContainer .miniContainer2 .right-part .revenue-report .revenueChart .c
   letter-spacing: 0px;
   text-align: center;
   color: #b9b9c3;
-  margin-right: 22.5px;
+  margin-right: 23.5px;
 }
 
 body .mainContainer .miniContainer2 .right-part .virtical-line {
-  margin-left: 15px;
-  height: 100%;
   border: 1px solid #ebe9f1;
 }
 
@@ -846,17 +866,17 @@ body .mainContainer .miniContainer2 .right-part .budget {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 15px;
-  padding: 20px;
+  text-align: center;
+  margin-top: 25px;
 }
 
 body .mainContainer .miniContainer2 .right-part .budget .yearAndBudget .currentYearAnddownArrow {
-  margin-left: 15px;
+  margin-left: 22.5px;
   width: 45px;
   margin-bottom: 40px;
   border: 1px solid #7367f0;
-  padding: 3px 6px;
   border-radius: 6px;
+  padding: 3px 10px 3px 6px;
 }
 
 body .mainContainer .miniContainer2 .right-part .budget .yearAndBudget .currentYearAnddownArrow .currentYear {
@@ -868,6 +888,11 @@ body .mainContainer .miniContainer2 .right-part .budget .yearAndBudget .currentY
   text-align: center;
   color: #7367f0;
   margin-right: 6px;
+}
+
+body .mainContainer .miniContainer2 .right-part .budget .yearAndBudget .currentYearAnddownArrow .downArrow {
+  color: #7367f0;
+  font-size: 17px;
 }
 
 body .mainContainer .miniContainer2 .right-part .budget .yearAndBudget .valueAndBudget {
@@ -919,7 +944,6 @@ body .mainContainer .miniContainer3 {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 28px;
-  margin-right: 28px;
 }
 
 body .mainContainer .miniContainer3 .in-flex {
@@ -931,78 +955,7 @@ body .mainContainer .miniContainer3 .in-flex {
           align-items: center;
 }
 
-body .mainContainer .miniContainer3 .left-part {
-  margin-right: 28px;
-}
-
-body .mainContainer .miniContainer3 .left-part .table {
-  border-radius: 6px;
-}
-
-body .mainContainer .miniContainer3 .left-part .table .header-row {
-  width: 720px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 10px 20px;
-  background: #f3f2f7;
-}
-
-body .mainContainer .miniContainer3 .left-part .table .header-row .companyList .companey-text {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 15px;
-  letter-spacing: 1px;
-  text-align: left;
-  margin-right: 80px;
-}
-
-body .mainContainer .miniContainer3 .left-part .table .header-row .categoryList .category-text {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 15px;
-  letter-spacing: 1px;
-  text-align: left;
-  margin-right: 40px;
-}
-
-body .mainContainer .miniContainer3 .left-part .table .header-row .viewsList .views-text {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 15px;
-  letter-spacing: 1px;
-  text-align: left;
-  margin-right: 28px;
-}
-
-body .mainContainer .miniContainer3 .left-part .table .header-row .revenueList .revenue-text {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 15px;
-  letter-spacing: 1px;
-  text-align: left;
-  margin-right: 16px;
-}
-
-body .mainContainer .miniContainer3 .left-part .table .header-row .salesList .text {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 15px;
-  letter-spacing: 1px;
-  text-align: left;
-  margin-right: 14px;
-}
-
-body .mainContainer .miniContainer3 .left-part .table .row {
-  width: 720px;
+body .mainContainer .miniContainer3 .flex-spaceBetween {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1012,22 +965,107 @@ body .mainContainer .miniContainer3 .left-part .table .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 20px;
-  background: #ffffff;
+}
+
+body .mainContainer .miniContainer3 .left-part {
+  margin-right: 28px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table {
+  border-spacing: 0;
+  width: 740px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .header-background {
+  background: #f3f2f7;
   border: 3px solid #f8f8f8;
-  border-left: none;
   border-top: none;
+  border-left: none;
   border-right: none;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .row .iconAndCompanyDetails .icon {
-  padding: 7px 6px;
+body .mainContainer .miniContainer3 .left-part .table .header-background td {
+  padding: 11px 20px;
+  border: none;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .header-background .companyList .companey-text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-right: 86px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .header-background .categoryList .category-text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-right: 80px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .header-background .viewsList .views-text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-right: 40px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .header-background .revenueList .revenue-text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-right: 16px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .header-background .salesList .text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-right: 25px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .header-background .arrow-colour {
+  color: #babfc7;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .inner-part {
+  background: #ffffff;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .inner-part td {
+  padding: 10.4px 20px;
+  border: 3px solid #f8f8f8;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .inner-part .iconAndCompanyDetails .icon {
   background: #f8f8f8;
-  border-radius: 6px;
-  margin-right: 20px;
+  padding: 6px 7px 4px 7px;
+  border-radius: 5px;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .row .iconAndCompanyDetails .compeny-nameAndMail .name {
+body .mainContainer .miniContainer3 .left-part .table .inner-part .iconAndCompanyDetails .compeny-nameAndMail {
+  margin-left: 10px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .inner-part .iconAndCompanyDetails .compeny-nameAndMail .name {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -1037,7 +1075,7 @@ body .mainContainer .miniContainer3 .left-part .table .row .iconAndCompanyDetail
   color: #6e6b7b;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .row .iconAndCompanyDetails .compeny-nameAndMail .mail {
+body .mainContainer .miniContainer3 .left-part .table .inner-part .iconAndCompanyDetails .compeny-nameAndMail .mail {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1047,16 +1085,9 @@ body .mainContainer .miniContainer3 .left-part .table .row .iconAndCompanyDetail
   color: #b9b9c3;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .row .iconAndCategory {
-  margin-left: 0px;
-}
-
-body .mainContainer .miniContainer3 .left-part .table .row .iconAndCategory .technology-icon {
-  margin-right: 10px;
-}
-
-body .mainContainer .miniContainer3 .left-part .table .row .iconAndCategory .categoryName {
+body .mainContainer .miniContainer3 .left-part .table .inner-part .iconAndCategory .categoryName {
   font-size: 14px;
+  padding: 7px 6px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
@@ -1065,11 +1096,11 @@ body .mainContainer .miniContainer3 .left-part .table .row .iconAndCategory .cat
   color: #6e6b7b;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .row .viewsAndDuringTime {
-  margin-left: -30px;
+body .mainContainer .miniContainer3 .left-part .table .inner-part .viewsAndDuringTime {
+  margin-left: 7px;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .row .viewsAndDuringTime .views {
+body .mainContainer .miniContainer3 .left-part .table .inner-part .viewsAndDuringTime .views {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -1079,7 +1110,7 @@ body .mainContainer .miniContainer3 .left-part .table .row .viewsAndDuringTime .
   color: #6e6b7b;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .row .viewsAndDuringTime .duringTime {
+body .mainContainer .miniContainer3 .left-part .table .inner-part .viewsAndDuringTime .duringTime {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1089,8 +1120,7 @@ body .mainContainer .miniContainer3 .left-part .table .row .viewsAndDuringTime .
   color: #b9b9c3;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .row .revenue {
-  margin-right: 20px;
+body .mainContainer .miniContainer3 .left-part .table .inner-part .revenue {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -1100,11 +1130,11 @@ body .mainContainer .miniContainer3 .left-part .table .row .revenue {
   color: #6e6b7b;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .row .salesPercentageAndGraph {
-  margin-right: 5px;
+body .mainContainer .miniContainer3 .left-part .table .inner-part .salesPercentageAndGraph {
+  margin-right: 15px;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .row .salesPercentageAndGraph .percentage {
+body .mainContainer .miniContainer3 .left-part .table .inner-part .salesPercentageAndGraph .percentage {
   margin-right: 5px;
   font-size: 14px;
   font-style: normal;
@@ -1115,22 +1145,192 @@ body .mainContainer .miniContainer3 .left-part .table .row .salesPercentageAndGr
   margin-right: 10px;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .system {
-  padding: 7px 6px 6px 6px;
+body .mainContainer .miniContainer3 .left-part .table .inner-part .companey-icon2 {
+  background: #f8f8f8;
+  padding: 6px 7px 3px 7px;
+  border-radius: 5px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .inner-part .companey-icon3 {
+  background: #f8f8f8;
+  padding: 6px 9px 3px 9px;
+  border-radius: 5px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .inner-part .companey-icon5 {
+  background: #f8f8f8;
+  padding: 7px 9px 3px 9px;
+  border-radius: 5px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .inner-part .companey-icon7 {
+  background: #f8f8f8;
+  padding: 10px 9px 8px 9px;
+  border-radius: 5px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .inner-part .system {
+  padding: 7px 7px 4px 7px;
   background: #c8c4f7;
   border-radius: 50%;
+  margin-right: 10px;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .cup {
-  padding: 7px 6px 6px 6px;
+body .mainContainer .miniContainer3 .left-part .table .inner-part .cup {
+  padding: 7px 7px 4px 8px;
   background: #dcf1e6;
   border-radius: 50%;
+  margin-right: 10px;
 }
 
-body .mainContainer .miniContainer3 .left-part .table .watch {
-  padding: 7px 6px 6px 6px;
+body .mainContainer .miniContainer3 .left-part .table .inner-part .watch {
+  padding: 7px 7px 4px 6px;
   background: #eed6c0;
   border-radius: 50%;
+  margin-right: 10px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row {
+  background: #ffffff;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row td {
+  padding: 10.4px 20px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .iconAndCompanyDetails .icon {
+  background: #f8f8f8;
+  padding: 6px 7px 4px 7px;
+  border-radius: 5px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .iconAndCompanyDetails .compeny-nameAndMail {
+  margin-left: 10px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .iconAndCompanyDetails .compeny-nameAndMail .name {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e6b7b;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .iconAndCompanyDetails .compeny-nameAndMail .mail {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #b9b9c3;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .iconAndCategory .categoryName {
+  font-size: 14px;
+  padding: 7px 6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e6b7b;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .viewsAndDuringTime {
+  margin-left: 7px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .viewsAndDuringTime .views {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e6b7b;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .viewsAndDuringTime .duringTime {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #b9b9c3;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .revenue {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e6b7b;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .salesPercentageAndGraph {
+  margin-right: 15px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .salesPercentageAndGraph .percentage {
+  margin-right: 5px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .companey-icon2 {
+  background: #f8f8f8;
+  padding: 6px 7px 3px 7px;
+  border-radius: 5px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .companey-icon3 {
+  background: #f8f8f8;
+  padding: 6px 9px 3px 9px;
+  border-radius: 5px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .companey-icon5 {
+  background: #f8f8f8;
+  padding: 7px 9px 3px 9px;
+  border-radius: 5px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .companey-icon7 {
+  background: #f8f8f8;
+  padding: 10px 9px 8px 9px;
+  border-radius: 5px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .system {
+  padding: 7px 7px 4px 7px;
+  background: #c8c4f7;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .cup {
+  padding: 7px 7px 4px 8px;
+  background: #dcf1e6;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+body .mainContainer .miniContainer3 .left-part .table .last-row .watch {
+  padding: 7px 7px 4px 6px;
+  background: #eed6c0;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 body .mainContainer .miniContainer3 .right-part {
@@ -1191,9 +1391,9 @@ body .mainContainer .miniContainer3 .right-part .meeting-setup .calender {
 }
 
 body .mainContainer .miniContainer3 .right-part .meeting-setup .calender .iconBackground {
-  padding: 6px;
+  padding: 6px 6px 4px 6px;
   border-radius: 5px;
-  background: #b5aff5;
+  background: #e4e3f7;
   margin-right: 14px;
 }
 
@@ -1222,9 +1422,9 @@ body .mainContainer .miniContainer3 .right-part .meeting-setup .location {
 }
 
 body .mainContainer .miniContainer3 .right-part .meeting-setup .location .iconBackground {
-  padding: 6px;
+  padding: 6px 6px 4px 6px;
   border-radius: 5px;
-  background: #b5aff5;
+  background: #e4e3f7;
   margin-right: 14px;
 }
 
@@ -1246,6 +1446,10 @@ body .mainContainer .miniContainer3 .right-part .meeting-setup .location .locati
   letter-spacing: 0px;
   text-align: left;
   color: #b9b9c3;
+}
+
+body .mainContainer .miniContainer3 .right-part .meeting-setup .attendedPeople {
+  margin-left: -5px;
 }
 
 body .mainContainer .miniContainer4 {
@@ -1333,18 +1537,21 @@ body .mainContainer .miniContainer4 .browser .browsersAndPercentages .percentage
 }
 
 body .mainContainer .miniContainer4 .overView {
-  width: 320px;
+  width: 345px;
   background: #ffffff;
   margin-left: 28px;
-  padding: 20px 30px 0 20px;
   border-radius: 5px;
 }
 
-body .mainContainer .miniContainer4 .overView .question {
+body .mainContainer .miniContainer4 .overView .questionIconAndpercentage {
+  padding: 20px 30px 0 20px;
+}
+
+body .mainContainer .miniContainer4 .overView .questionIconAndpercentage .question {
   text-align: right;
 }
 
-body .mainContainer .miniContainer4 .overView .text {
+body .mainContainer .miniContainer4 .overView .questionIconAndpercentage .text {
   font-size: 18px;
   font-style: normal;
   font-weight: bold;
@@ -1354,7 +1561,7 @@ body .mainContainer .miniContainer4 .overView .text {
   color: #5e5873;
 }
 
-body .mainContainer .miniContainer4 .overView .percentage {
+body .mainContainer .miniContainer4 .overView .questionIconAndpercentage .percentage {
   text-align: center;
 }
 
@@ -1399,7 +1606,7 @@ body .mainContainer .miniContainer4 .overView .completedAndProgress-vales .progr
 
 body .mainContainer .miniContainer4 .transactions {
   margin-left: 28px;
-  width: 320px;
+  width: 342px;
   background: #ffffff;
   padding: 18px 16px 0px 20px;
   border-radius: 5px;
