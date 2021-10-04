@@ -197,6 +197,14 @@ body aside .apps {
   padding-bottom: 19px;
 }
 
+body aside .apps #toggle {
+  display: none;
+}
+
+body aside .apps .checkbtn {
+  display: none;
+}
+
 body aside .apps ul {
   list-style-type: none;
 }
@@ -254,6 +262,14 @@ body aside .apps .arrowButton {
 body aside .userInteface-elments {
   margin-left: 14px;
   padding-bottom: 19px;
+}
+
+body aside .userInteface-elments #toggle {
+  display: none;
+}
+
+body aside .userInteface-elments .checkbtn {
+  display: none;
 }
 
 body aside .userInteface-elments ul {
@@ -326,6 +342,14 @@ body aside .userInteface-elments .addingNew {
 
 body aside .formsAndTables {
   margin-left: 14px;
+}
+
+body aside .formsAndTables #toggle {
+  display: none;
+}
+
+body aside .formsAndTables .checkbtn {
+  display: none;
 }
 
 body aside .formsAndTables ul {
@@ -1846,5 +1870,839 @@ body .mainContainer .copyRihgts-createdWith .cereatedWith .text {
 
 body .mainContainer .copyRihgts-createdWith .cereatedWith .heart {
   color: #ea5455;
+}
+
+@media (max-width: 992px) {
+  body aside .pageThings {
+    margin-bottom: 80px;
+  }
+  body aside .userInteface-elments {
+    margin-top: 50px;
+  }
+  body aside .formsAndTables {
+    margin-top: 50px;
+  }
+  body .mainContainer {
+    margin-left: -10px;
+  }
+  body .mainContainer .header {
+    width: 96.5%;
+  }
+  body .mainContainer .minContainers1 {
+    width: 97.9%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .mainContainer .minContainers1 .left-part {
+    width: 50%;
+  }
+  body .mainContainer .minContainers1 .right-part {
+    margin-right: 10px;
+  }
+  body .mainContainer .minContainers1 .right-part .satatisticsAndUpdatedTime {
+    margin-top: -10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .mainContainer .minContainers1 .right-part .satatisticsAndUpdatedTime .statisticsText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics {
+    margin-top: -25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 25px;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics .graphAndSales .graph {
+    padding: 5px 7px 4px 6px;
+    border-radius: 50%;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics .userIconAndCustomers {
+    margin-left: 20px;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics .userIconAndCustomers .userIcon {
+    padding: 5px 7px 4px 6px;
+    border-radius: 50%;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics .iconAndProducts {
+    margin-left: -15px;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics .iconAndProducts .cubeicon {
+    padding: 6px 7px 4px 7px;
+    border-radius: 50%;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics .iconAndRevenue {
+    margin-left: 7px;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics .iconAndRevenue .doller {
+    padding: 5px 7px 4px 6px;
+    border-radius: 50%;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics .numberAndText .number {
+    font-size: 12px;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics .numberAndText .text {
+    font-size: 10px;
+  }
+  body .mainContainer .miniContainer2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mainContainer .miniContainer2 .left-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  body .mainContainer .miniContainer2 .left-part .top-part {
+    margin-bottom: 0;
+  }
+  body .mainContainer .miniContainer2 .left-part .top-part .orderAndGraph {
+    margin-right: -11.5px;
+  }
+  body .mainContainer .miniContainer2 .left-part .top-part .profit {
+    margin-right: 28px;
+  }
+  body .mainContainer .miniContainer2 .left-part .bottom-part {
+    width: 303px;
+    margin-top: -0.5px;
+  }
+  body .mainContainer .miniContainer2 .left-part .bottom-part .earningAmountAndSalesPercentage {
+    width: 50px;
+  }
+  body .mainContainer .miniContainer2 .left-part .bottom-part .earningAmountAndSalesPercentage .monthEarning {
+    margin: 27px 0;
+  }
+  body .mainContainer .miniContainer2 .left-part .bottom-part .earningAmountAndSalesPercentage .lastMonthPrecentage {
+    width: 150px;
+  }
+  body .mainContainer .miniContainer2 .right-part {
+    margin-left: 0;
+    width: 678px;
+  }
+  body .mainContainer .miniContainer2 .right-part .revenue-report {
+    padding: 10px;
+  }
+  body .mainContainer .miniContainer3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background {
+    padding-right: 20px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background td {
+    padding: 5px 6px 5px 6px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background .categoryList .category-text {
+    margin-left: 5px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background .viewsList .views-text {
+    margin-left: 10px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background .revenueList .revenue-text {
+    margin-left: 10px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background .salesList {
+    padding-right: 8px;
+    margin-right: 20px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background .salesList .text {
+    margin-left: 5px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part td {
+    padding: 11px 7px 11px 9px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part .viewsAndDuringTime {
+    margin-left: px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part .revenue {
+    margin-left: 7px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part .salesPercentageAndGraph {
+    margin-left: 3px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row td {
+    padding: 11px 7px 11px 9px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .viewsAndDuringTime {
+    margin-left: px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .revenue {
+    margin-left: 7px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .salesPercentageAndGraph {
+    margin-left: 3px;
+  }
+  body .mainContainer .miniContainer3 .right-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 95.6%;
+    margin-top: 20px;
+  }
+  body .mainContainer .miniContainer3 .right-part .image {
+    background: #7367f0;
+    padding-top: 60px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  body .mainContainer .miniContainer3 .right-part .meeting-setup {
+    margin-top: 50px;
+  }
+  body .mainContainer .miniContainer4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .mainContainer .miniContainer4 .browser {
+    width: 345px;
+    padding: 15px 5px 0 5px;
+  }
+  body .mainContainer .miniContainer4 .overView {
+    width: 300px;
+    margin-right: 30px;
+  }
+  body .mainContainer .miniContainer4 .transactions {
+    width: 95.8%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  body .mainContainer .copyRihgts-createdWith {
+    width: 95.8%;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .sideContanier aside {
+    width: 100%;
+    padding: 25px;
+  }
+  body .sideContanier aside .pageThings {
+    margin-bottom: 20px;
+    margin-left: -10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .sideContanier aside .pageThings .dashboardAndPages {
+    width: 200px;
+  }
+  body .sideContanier aside .pageThings .circleAnalytics {
+    width: 200px;
+    margin-left: 20px;
+  }
+  body .sideContanier aside .pageThings .cicrleAndEcommerence {
+    width: 200px;
+    margin-bottom: 7px;
+    background: #7367f0;
+    padding: 10px 0px 8px 15px;
+    margin-left: 20px;
+  }
+  body .sideContanier aside .pageThings .cicrleAndEcommerence h5 a {
+    color: #ffffff;
+  }
+  body .sideContanier aside .sideList-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .sideContanier aside .sideList-items .apps {
+    margin-top: 11px;
+  }
+  body .sideContanier aside .sideList-items .apps .sideUl {
+    width: 200px;
+    display: none;
+    margin-top: 20px;
+    width: 50;
+    background: #ffffff;
+  }
+  body .sideContanier aside .sideList-items .apps label {
+    display: block;
+    cursor: pointer;
+  }
+  body .sideContanier aside .sideList-items .apps label::after {
+    content: attr(adding);
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  body .sideContanier aside .sideList-items .apps #toggle:checked + .sideUl {
+    display: block;
+  }
+  body .sideContanier aside .sideList-items .userInteface-elments {
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  body .sideContanier aside .sideList-items .userInteface-elments .UI-elements {
+    width: 220px;
+    display: none;
+    margin-top: 20px;
+  }
+  body .sideContanier aside .sideList-items .userInteface-elments label {
+    display: block;
+    cursor: pointer;
+  }
+  body .sideContanier aside .sideList-items .userInteface-elments label::after {
+    content: attr(adding);
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  body .sideContanier aside .sideList-items .userInteface-elments #toggle1:checked + .UI-elements {
+    display: block;
+  }
+  body .sideContanier aside .sideList-items .formsAndTables {
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  body .sideContanier aside .sideList-items .formsAndTables .ul-formsAndTable {
+    width: 200px;
+    display: none;
+    margin-top: 20px;
+  }
+  body .sideContanier aside .sideList-items .formsAndTables label {
+    display: block;
+    cursor: pointer;
+  }
+  body .sideContanier aside .sideList-items .formsAndTables label::after {
+    content: attr(adding);
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  body .sideContanier aside .sideList-items .formsAndTables #toggle2:checked + .ul-formsAndTable {
+    display: block;
+  }
+  body .mainContainer {
+    padding: 10px 20px;
+    margin: 0;
+  }
+  body .mainContainer .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  body .mainContainer .minContainers1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .mainContainer .minContainers1 .left-part {
+    margin-right: 20px;
+  }
+  body .mainContainer .minContainers1 .right-part {
+    padding: 20px 10px;
+    margin-right: -12.5px;
+    margin-left: 0;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics .graphAndSales {
+    margin-right: 0;
+    margin-left: -7px;
+  }
+  body .mainContainer .miniContainer2 .left-part .bottom-part {
+    width: 47.8%;
+    margin-left: -6px;
+  }
+  body .mainContainer .miniContainer2 .left-part .bottom-part .earningAmountAndSalesPercentage {
+    width: 100%;
+  }
+  body .mainContainer .miniContainer2 .right-part {
+    width: 100%;
+  }
+  body .mainContainer .miniContainer2 .right-part .budget {
+    padding-bottom: 10px;
+  }
+  body .mainContainer .miniContainer3 .left-part {
+    margin-right: 0;
+  }
+  body .mainContainer .miniContainer3 .left-part .table {
+    width: 99.5%;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background td {
+    padding: 5px 6px 5px 6px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background .categoryList .category-text {
+    margin-left: 5px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background .viewsList .views-text {
+    margin-left: 10px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background .revenueList .revenue-text {
+    margin-left: 10px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background .salesList {
+    margin-right: 20px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background .salesList .text {
+    margin-left: 5px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part td {
+    padding: 11px 7px 11px 9px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part .viewsAndDuringTime {
+    margin-left: px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part .revenue {
+    margin-left: 7px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part .salesPercentageAndGraph {
+    margin-left: 3px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row td {
+    padding: 11px 7px 11px 9px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .viewsAndDuringTime {
+    margin-left: px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .revenue {
+    margin-left: 7px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .salesPercentageAndGraph {
+    margin-left: 3px;
+  }
+  body .mainContainer .miniContainer3 .right-part {
+    width: 99.5%;
+  }
+  body .mainContainer .miniContainer3 .right-part .image {
+    background: #7367f0;
+    padding-top: 60px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  body .mainContainer .miniContainer4 .browser {
+    margin: 0;
+  }
+  body .mainContainer .miniContainer4 .overView {
+    margin: 0;
+    margin-right: 5px;
+  }
+  body .mainContainer .miniContainer4 .transactions {
+    width: 99.5%;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .sideContanier aside {
+    width: 100%;
+    padding: 25px;
+  }
+  body .sideContanier aside .pageThings {
+    margin-bottom: 20px;
+    margin-left: -10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .sideContanier aside .pageThings .dashboardAndPages {
+    width: 100%;
+  }
+  body .sideContanier aside .pageThings .circleAnalytics {
+    width: 100%;
+    margin-left: 0px;
+  }
+  body .sideContanier aside .pageThings .cicrleAndEcommerence {
+    width: 100%;
+    margin-bottom: 7px;
+    background: #f7f7fa;
+    padding: 10px 0px 8px 15px;
+    margin-left: 0;
+  }
+  body .sideContanier aside .pageThings .cicrleAndEcommerence h5 a {
+    color: black;
+  }
+  body .sideContanier aside .sideList-items {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .sideContanier aside .sideList-items .apps {
+    width: 33%;
+    margin-top: 11px;
+    margin-left: -7px;
+  }
+  body .sideContanier aside .sideList-items .apps .sideUl {
+    width: 200px;
+    display: none;
+    margin-top: 20px;
+    width: 50;
+    background: #ffffff;
+  }
+  body .sideContanier aside .sideList-items .apps label {
+    width: 100px;
+    display: block;
+    cursor: pointer;
+  }
+  body .sideContanier aside .sideList-items .apps label::after {
+    content: attr(adding);
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  body .sideContanier aside .sideList-items .apps #toggle:checked + .sideUl {
+    display: block;
+  }
+  body .sideContanier aside .sideList-items .userInteface-elments {
+    margin-top: 10px;
+    margin-right: 31px;
+    width: 33%;
+  }
+  body .sideContanier aside .sideList-items .userInteface-elments .UI-elements {
+    width: 220px;
+    display: none;
+    margin-top: 20px;
+  }
+  body .sideContanier aside .sideList-items .userInteface-elments label {
+    width: 150px;
+    display: block;
+    cursor: pointer;
+  }
+  body .sideContanier aside .sideList-items .userInteface-elments label::after {
+    content: attr(adding);
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  body .sideContanier aside .sideList-items .userInteface-elments #toggle1:checked + .UI-elements {
+    display: block;
+  }
+  body .sideContanier aside .sideList-items .formsAndTables {
+    width: 33%;
+    margin-top: 10px;
+  }
+  body .sideContanier aside .sideList-items .formsAndTables .ul-formsAndTable {
+    display: none;
+    margin-top: 20px;
+  }
+  body .sideContanier aside .sideList-items .formsAndTables label {
+    width: 160px;
+    display: block;
+    cursor: pointer;
+  }
+  body .sideContanier aside .sideList-items .formsAndTables label::after {
+    content: attr(adding);
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  body .sideContanier aside .sideList-items .formsAndTables #toggle2:checked + .ul-formsAndTable {
+    display: block;
+  }
+  body .mainContainer {
+    padding: 20px 20px 0 20px;
+    margin: 0;
+  }
+  body .mainContainer .header {
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  body .mainContainer .header .left-navigations {
+    display: none;
+  }
+  body .mainContainer .header .right-navigations ul {
+    gap: 33.5px;
+  }
+  body .mainContainer .minContainers1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0;
+  }
+  body .mainContainer .minContainers1 .left-part {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  body .mainContainer .minContainers1 .left-part .wishesAndMoney {
+    margin-left: 20px;
+  }
+  body .mainContainer .minContainers1 .left-part .badge {
+    margin-left: 100px;
+  }
+  body .mainContainer .minContainers1 .right-part {
+    padding: 20px 10px;
+    margin-right: -12.5px;
+    margin-left: 0;
+  }
+  body .mainContainer .minContainers1 .right-part .statistics .graphAndSales {
+    margin-right: 0;
+    margin-left: -7px;
+  }
+  body .mainContainer .miniContainer2 {
+    width: 100%;
+  }
+  body .mainContainer .miniContainer2 .left-part {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mainContainer .miniContainer2 .left-part .top-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .mainContainer .miniContainer2 .left-part .top-part .profit {
+    margin-right: 0;
+  }
+  body .mainContainer .miniContainer2 .left-part .bottom-part {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0.8px;
+  }
+  body .mainContainer .miniContainer2 .left-part .bottom-part .earningAmountAndSalesPercentage {
+    width: 100%;
+  }
+  body .mainContainer .miniContainer2 .right-part {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  body .mainContainer .miniContainer2 .right-part .revenue-report {
+    display: none;
+  }
+  body .mainContainer .miniContainer2 .right-part .virtical-line {
+    display: none;
+  }
+  body .mainContainer .miniContainer2 .right-part .budget {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .mainContainer .miniContainer2 .right-part .budget .yearAndBudget {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .mainContainer .miniContainer2 .right-part .budget .Wavegraphs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mainContainer .miniContainer3 {
+    width: 100%;
+  }
+  body .mainContainer .miniContainer3 .left-part {
+    margin-right: 0;
+  }
+  body .mainContainer .miniContainer3 .left-part table td::before {
+    content: attr(label);
+    position: absolute;
+    left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table {
+    width: 100%;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .header-background .table-header {
+    display: none;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90vw;
+    margin: 10px 0;
+    border-radius: 6px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part td {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    border: 2px solid #5e5b73;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part .border-none {
+    border: none;
+    padding-bottom: 20px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part .viewsAndDuringTime {
+    margin-left: 7px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part .revenue {
+    margin-left: 7px;
+    padding-bottom: 10px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .inner-part .salesPercentageAndGraph {
+    margin-left: 3px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90vw;
+    border-radius: 6px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .leftButtom-radius {
+    border-radius: 0;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .rightButtom-radius {
+    border-radius: 0;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row td {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    border: 2px solid #5e5b73;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .border-none {
+    border: none;
+    padding-bottom: 20px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .viewsAndDuringTime {
+    margin-left: 7px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .revenue {
+    margin-left: 7px;
+  }
+  body .mainContainer .miniContainer3 .left-part .table .last-row .salesPercentageAndGraph {
+    margin-left: 3px;
+    padding-bottom: 17px;
+  }
+  body .mainContainer .miniContainer3 .right-part {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mainContainer .miniContainer3 .right-part .image {
+    background: #7367f0;
+    padding-left: 60px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0;
+  }
+  body .mainContainer .miniContainer3 .right-part .meeting-setup {
+    margin: 0;
+  }
+  body .mainContainer .miniContainer4 .browser {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  body .mainContainer .miniContainer4 .overView {
+    width: 100%;
+  }
+  body .mainContainer .miniContainer4 .transactions {
+    width: 100%;
+  }
+  body .mainContainer .miniContainer4 .transactions .typeOf-transation {
+    margin-top: 25px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

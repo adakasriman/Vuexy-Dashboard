@@ -148,6 +148,12 @@ body {
             }
         }
         .apps {
+            #toggle {
+                display: none;
+            }
+            .checkbtn {
+                display: none;
+            }
             margin-left: 14px;
             padding-bottom: 19px;
             ul {
@@ -192,6 +198,12 @@ body {
             }
         }
         .userInteface-elments {
+            #toggle {
+                display: none;
+            }
+            .checkbtn {
+                display: none;
+            }
             margin-left: 14px;
             padding-bottom: 19px;
             ul {
@@ -250,6 +262,12 @@ body {
             }
         }
         .formsAndTables {
+            #toggle {
+                display: none;
+            }
+            .checkbtn {
+                display: none;
+            }
             margin-left: 14px;
             ul {
                 list-style-type: none;
@@ -277,7 +295,7 @@ body {
             .text-style {
                 font-size: 15px;
                 font-style: normal;
-                font-weight:600;
+                font-weight: 600;
                 line-height: 24px;
                 letter-spacing: 0px;
                 text-align: left;
@@ -1525,6 +1543,801 @@ body {
                 }
                 .heart {
                     color: #ea5455;
+                }
+            }
+        }
+    }
+}
+
+// media quries
+
+@media (max-width: 992px) {
+    body {
+        aside {
+            .pageThings {
+                margin-bottom: 80px;
+            }
+            .userInteface-elments {
+                margin-top: 50px;
+            }
+            .formsAndTables {
+                margin-top: 50px;
+            }
+        }
+        .mainContainer {
+            margin-left: -10px;
+            .header {
+                width: 96.5%;
+            }
+            .minContainers1 {
+                width: 97.9%;
+                display: flex;
+                flex-direction: row;
+                .left-part {
+                    width: 50%;
+                }
+                .right-part {
+                    margin-right: 10px;
+                    .satatisticsAndUpdatedTime {
+                        margin-top: -10px;
+                        display: flex;
+                        .statisticsText {
+                            display: flex;
+                        }
+                    }
+                    .statistics {
+                        margin-top: -25px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 25px;
+                        .graphAndSales {
+                            .graph {
+                                padding: 5px 7px 4px 6px;
+                                border-radius: 50%;
+                            }
+                        }
+                        .userIconAndCustomers {
+                            margin-left: 20px;
+                            .userIcon {
+                                padding: 5px 7px 4px 6px;
+                                border-radius: 50%;
+                            }
+                        }
+                        .iconAndProducts {
+                            margin-left: -15px;
+                            .cubeicon {
+                                padding: 6px 7px 4px 7px;
+                                border-radius: 50%;
+                            }
+                        }
+                        .iconAndRevenue {
+                            margin-left: 7px;
+                            .doller {
+                                padding: 5px 7px 4px 6px;
+                                border-radius: 50%;
+                            }
+                        }
+                        .numberAndText {
+                            .number {
+                                font-size: 12px;
+                            }
+                            .text {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .miniContainer2 {
+                display: flex;
+                flex-direction: column;
+                .left-part {
+                    display: flex;
+                    margin-bottom: 20px;
+                    .top-part {
+                        margin-bottom: 0;
+                        .orderAndGraph {
+                            margin-right: -11.5px;
+                        }
+                        .profit {
+                            margin-right: 28px;
+                        }
+                    }
+                    .bottom-part {
+                        width: 303px;
+                        margin-top: -0.5px;
+                        .earningAmountAndSalesPercentage {
+                            // margin-top: -50px;
+                            width: 50px;
+                            .monthEarning {
+                                margin: 27px 0;
+                            }
+                            .lastMonthPrecentage {
+                                width: 150px;
+                            }
+                        }
+                    }
+                }
+                .right-part {
+                    margin-left: 0;
+                    width: 678px;
+                    .revenue-report {
+                        padding: 10px;
+                    }
+                }
+            }
+            .miniContainer3 {
+                display: flex;
+                flex-direction: column;
+                .left-part {
+                    .table {
+                        // width: 50%;
+                        .header-background {
+                            padding-right: 20px;
+                            td {
+                                padding: 5px 6px 5px 6px;
+                            }
+                            .categoryList {
+                                .category-text {
+                                    margin-left: 5px;
+                                }
+                            }
+                            .viewsList {
+                                .views-text {
+                                    margin-left: 10px;
+                                }
+                            }
+                            .revenueList {
+                                .revenue-text {
+                                    margin-left: 10px;
+                                }
+                            }
+                            .salesList {
+                                padding-right: 8px;
+                                margin-right: 20px;
+                                .text {
+                                    margin-left: 5px;
+                                }
+                            }
+                        }
+                        .inner-part {
+                            td {
+                                padding: 11px 7px 11px 9px;
+                            }
+                            .viewsAndDuringTime {
+                                margin-left: px;
+                            }
+                            .revenue {
+                                margin-left: 7px;
+                            }
+                            .salesPercentageAndGraph {
+                                margin-left: 3px;
+                            }
+                        }
+                        .last-row {
+                            td {
+                                padding: 11px 7px 11px 9px;
+                            }
+                            .viewsAndDuringTime {
+                                margin-left: px;
+                            }
+                            .revenue {
+                                margin-left: 7px;
+                            }
+                            .salesPercentageAndGraph {
+                                margin-left: 3px;
+                            }
+                        }
+                    }
+                }
+                .right-part {
+                    // background: none;
+                    display: flex;
+                    width: 95.6%;
+                    margin-top: 20px;
+                    .image {
+                        background: #7367f0;
+                        padding-top: 60px;
+                        border-top-left-radius: 6px;
+                        border-bottom-left-radius: 6px;
+                    }
+                    .meeting-setup {
+                        margin-top: 50px;
+                    }
+                }
+            }
+            .miniContainer4 {
+                display: flex;
+                flex-wrap: wrap;
+                .browser {
+                    width: 345px;
+                    padding: 15px 5px 0 5px;
+                }
+                .overView {
+                    width: 300px;
+                    margin-right: 30px;
+                }
+                .transactions {
+                    width: 95.8%;
+                    margin-left: 0;
+                    margin-top: 20px;
+                }
+            }
+            .copyRihgts-createdWith {
+                width: 95.8%;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        .sideContanier {
+            aside {
+                width: 100%;
+                padding: 25px;
+                .pageThings {
+                    margin-bottom: 20px;
+                    margin-left: -10px;
+                    display: flex;
+                    justify-content: space-around;
+                    .dashboardAndPages {
+                        width: 200px;
+                    }
+                    .circleAnalytics {
+                        width: 200px;
+                        margin-left: 20px;
+                    }
+                    .cicrleAndEcommerence {
+                        width: 200px;
+                        margin-bottom: 7px;
+                        background: #7367f0;
+                        padding: 10px 0px 8px 15px;
+                        margin-left: 20px;
+                        h5 {
+                            a {
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                }
+                .sideList-items {
+                    display: flex;
+                    // align-items: center;
+                    justify-content: space-between;
+                    .apps {
+                        margin-top: 11px;
+                        .sideUl {
+                            width: 200px;
+                            display: none;
+                            margin-top: 20px;
+                            width: 50;
+                            // margin-left: 500px;
+                            background: #ffffff;
+                        }
+                        label {
+                            display: block;
+                            cursor: pointer;
+                        }
+                        label::after {
+                            content: attr(adding);
+                            margin-left: 20px;
+                            font-weight: bold;
+                        }
+                        #toggle:checked + .sideUl {
+                            display: block;
+                        }
+                    }
+                    .userInteface-elments {
+                        margin-top: 10px;
+                        margin-left: 60px;
+                        .UI-elements {
+                            width: 220px;
+                            display: none;
+                            margin-top: 20px;
+                        }
+                        label {
+                            display: block;
+                            cursor: pointer;
+                        }
+                        label::after {
+                            content: attr(adding);
+                            margin-left: 20px;
+                            font-weight: bold;
+                        }
+                        #toggle1:checked + .UI-elements {
+                            display: block;
+                        }
+                    }
+                    .formsAndTables {
+                        margin-top: 10px;
+                        margin-right: 50px;
+                        .ul-formsAndTable {
+                            width: 200px;
+                            display: none;
+                            margin-top: 20px;
+                        }
+                        label {
+                            display: block;
+                            cursor: pointer;
+                        }
+                        label::after {
+                            content: attr(adding);
+                            margin-left: 20px;
+                            font-weight: bold;
+                        }
+                        #toggle2:checked + .ul-formsAndTable {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        .mainContainer {
+            padding: 10px 20px;
+            margin: 0;
+            .header {
+                display: flex;
+                width: 100%;
+            }
+            .minContainers1 {
+                display: flex;
+                // flex-direction: column;
+                .left-part {
+                    margin-right: 20px;
+                }
+                .right-part {
+                    padding: 20px 10px;
+                    margin-right: -12.5px;
+                    margin-left: 0;
+                    .statistics {
+                        .graphAndSales {
+                            margin-right: 0;
+                            margin-left: -7px;
+                        }
+                    }
+                }
+            }
+            .miniContainer2 {
+                .left-part {
+                    .bottom-part {
+                        width: 47.8%;
+                        margin-left: -6px;
+                        .earningAmountAndSalesPercentage {
+                            width: 100%;
+                        }
+                    }
+                }
+                .right-part {
+                    width: 100%;
+                    .budget {
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+            .miniContainer3 {
+                .left-part {
+                    margin-right: 0;
+                    .table {
+                        width: 99.5%;
+                        .header-background {
+                            td {
+                                padding: 5px 6px 5px 6px;
+                            }
+                            .categoryList {
+                                .category-text {
+                                    margin-left: 5px;
+                                }
+                            }
+                            .viewsList {
+                                .views-text {
+                                    margin-left: 10px;
+                                }
+                            }
+                            .revenueList {
+                                .revenue-text {
+                                    margin-left: 10px;
+                                }
+                            }
+                            .salesList {
+                                margin-right: 20px;
+                                .text {
+                                    margin-left: 5px;
+                                }
+                            }
+                        }
+                        .inner-part {
+                            td {
+                                padding: 11px 7px 11px 9px;
+                            }
+                            .viewsAndDuringTime {
+                                margin-left: px;
+                            }
+                            .revenue {
+                                margin-left: 7px;
+                            }
+                            .salesPercentageAndGraph {
+                                margin-left: 3px;
+                            }
+                        }
+                        .last-row {
+                            td {
+                                padding: 11px 7px 11px 9px;
+                            }
+                            .viewsAndDuringTime {
+                                margin-left: px;
+                            }
+                            .revenue {
+                                margin-left: 7px;
+                            }
+                            .salesPercentageAndGraph {
+                                margin-left: 3px;
+                            }
+                        }
+                    }
+                }
+                .right-part {
+                    width: 99.5%;
+                    .image {
+                        background: #7367f0;
+                        padding-top: 60px;
+                        border-top-left-radius: 6px;
+                        border-bottom-left-radius: 6px;
+                    }
+                }
+            }
+            .miniContainer4 {
+                .browser {
+                    margin: 0;
+                }
+                .overView {
+                    margin: 0;
+                    margin-right: 5px;
+                }
+                .transactions {
+                    width: 99.5%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        .sideContanier {
+            aside {
+                width: 100%;
+                padding: 25px;
+                .pageThings {
+                    margin-bottom: 20px;
+                    margin-left: -10px;
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: space-around;
+                    .dashboardAndPages {
+                        width: 100%;
+                    }
+                    .circleAnalytics {
+                        width: 100%;
+                        margin-left: 0px;
+                    }
+                    .cicrleAndEcommerence {
+                        width: 100%;
+                        margin-bottom: 7px;
+                        background: #f7f7fa;
+                        padding: 10px 0px 8px 15px;
+                        margin-left: 0;
+                        h5 {
+                            a {
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                .sideList-items {
+                    width: 100%;
+                    display: flex;
+                    // align-items: center;
+                    justify-content: space-between;
+                    .apps {
+                        width: 33%;
+                        margin-top: 11px;
+                        margin-left: -7px;
+                        .sideUl {
+                            width: 200px;
+                            display: none;
+                            margin-top: 20px;
+                            width: 50;
+                            // margin-left: 500px;
+                            background: #ffffff;
+                        }
+                        label {
+                            width: 100px;
+                            display: block;
+                            cursor: pointer;
+                        }
+                        label::after {
+                            content: attr(adding);
+                            margin-left: 20px;
+                            font-weight: bold;
+                        }
+                        #toggle:checked + .sideUl {
+                            display: block;
+                        }
+                    }
+                    .userInteface-elments {
+                        margin-top: 10px;
+                        // margin-left: 15px;
+                        margin-right: 31px;
+                        width: 33%;
+                        .UI-elements {
+                            width: 220px;
+                            display: none;
+                            margin-top: 20px;
+                        }
+                        label {
+                            width: 150px;
+                            display: block;
+                            cursor: pointer;
+                        }
+                        label::after {
+                            content: attr(adding);
+                            margin-left: 20px;
+                            font-weight: bold;
+                        }
+                        #toggle1:checked + .UI-elements {
+                            display: block;
+                        }
+                    }
+                    .formsAndTables {
+                        width: 33%;
+                        margin-top: 10px;
+                        // margin-left: 20px;
+                        .ul-formsAndTable {
+                            // width: 200px;
+                            display: none;
+                            margin-top: 20px;
+                        }
+                        label {
+                            width: 160px;
+                            display: block;
+                            cursor: pointer;
+                        }
+                        label::after {
+                            content: attr(adding);
+                            margin-left: 20px;
+                            font-weight: bold;
+                        }
+                        #toggle2:checked + .ul-formsAndTable {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        .mainContainer {
+            padding: 20px 20px 0 20px;
+            margin: 0;
+            .header {
+                margin-bottom: 10px;
+                display: flex;
+                width: 100%;
+                .left-navigations {
+                    display: none;
+                }
+                .right-navigations {
+                    ul {
+                        gap: 33.5px;
+                    }
+                }
+            }
+            .minContainers1 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-top: 0;
+                .left-part {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    .wishesAndMoney {
+                        margin-left: 20px;
+                    }
+                    .badge {
+                        margin-left: 100px;
+                    }
+                }
+                .right-part {
+                    padding: 20px 10px;
+                    margin-right: -12.5px;
+                    margin-left: 0;
+                    .statistics {
+                        .graphAndSales {
+                            margin-right: 0;
+                            margin-left: -7px;
+                        }
+                    }
+                }
+            }
+            .miniContainer2 {
+                width: 100%;
+                .left-part {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    .top-part {
+                        display: flex;
+                        justify-content: space-between;
+                        .orderAndGraph {
+                            // .chart{
+                            //     display: none;
+                            // }
+                        }
+                        .profit {
+                            margin-right: 0;
+                            // .chart{
+                            //     display: none;
+                            // }
+                        }
+                    }
+                    .bottom-part {
+                        width: 100%;
+                        margin-top: 10px;
+                        margin-left: 0.8px;
+                        .earningAmountAndSalesPercentage {
+                            width: 100%;
+                        }
+                    }
+                }
+                .right-part {
+                    width: 100%;
+                    padding-bottom: 20px;
+                    .revenue-report {
+                        display: none;
+                    }
+                    .virtical-line {
+                        display: none;
+                    }
+                    .budget {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        .yearAndBudget {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                        }
+                        .Wavegraphs {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+            .miniContainer3 {
+                width: 100%;
+                .left-part {
+                    margin-right: 0;
+                    table td::before {
+                        content: attr(label);
+                        position: absolute;
+                        left: 30px;
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: black;
+                        align-items: center;
+                        margin-top: 5px;
+                    }
+                    .table {
+                        width: 100%;
+                        .header-background {
+                            .table-header {
+                                display: none;
+                            }
+                        }
+                        .inner-part {
+                            display: flex;
+                            flex-direction: column;
+                            width: 90vw;
+                            margin: 10px 0;
+                            border-radius: 6px;
+                            td {
+                                display: flex;
+                                justify-content: flex-end;
+                                border: 2px solid #5e5b73;
+                                border-top: none;
+                                border-left: none;
+                                border-right: none;
+                            }
+                            .border-none {
+                                border: none;
+                                padding-bottom: 20px;
+                            }
+                            .viewsAndDuringTime {
+                                margin-left: 7px;
+                            }
+                            .revenue {
+                                margin-left: 7px;
+                                padding-bottom: 10px;
+                            }
+                            .salesPercentageAndGraph {
+                                margin-left: 3px;
+                            }
+                        }
+                        .last-row {
+                            // padding: 0 10px;
+                            display: flex;
+                            flex-direction: column;
+                            width: 90vw;
+                            border-radius: 6px;
+                            .leftButtom-radius {
+                                border-radius: 0;
+                            }
+                            .rightButtom-radius {
+                                border-radius: 0;
+                            }
+                            td {
+                                display: flex;
+                                justify-content: flex-end;
+                                border: 2px solid #5e5b73;
+                                border-top: none;
+                                border-left: none;
+                                border-right: none;
+                            }
+                            .border-none {
+                                border: none;
+                                padding-bottom: 20px;
+                            }
+                            .viewsAndDuringTime {
+                                margin-left: 7px;
+                            }
+                            .revenue {
+                                margin-left: 7px;
+                            }
+                            .salesPercentageAndGraph {
+                                margin-left: 3px;
+                                padding-bottom: 17px;
+                            }
+                        }
+                    }
+                }
+                .right-part {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    .image {
+                        background: #7367f0;
+                        padding-left: 60px;
+                        border-top-left-radius: 6px;
+                        border-top-right-radius: 6px;
+                        border-bottom-left-radius: 0;
+                    }
+                    .meeting-setup {
+                        margin: 0;
+                    }
+                }
+            }
+            .miniContainer4 {
+                .browser {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    padding: 20px;
+                }
+                .overView {
+                    width: 100%;
+                    // margin: 0;
+                }
+                .transactions {
+                    width: 100%;
+                    .typeOf-transation {
+                        margin-top: 25px;
+                    }
                 }
             }
         }
